@@ -804,6 +804,7 @@ a:active {
 
 .main-navigation {
 	font-family: Montserrat, "Helvetica Neue", sans-serif;
+	background:#000;
 }
 
 .site-footer .main-navigation {
@@ -824,7 +825,7 @@ a:active {
 }
 
 .main-navigation a {
-	color: #1a1a1a;
+	color: #FFF;
 	display: block;
 	line-height: 1.3125;
 	outline-offset: -1px;
@@ -1549,6 +1550,7 @@ blockquote:after,
 	margin: 0 auto;
 	max-width: 1320px;
 	position: relative;
+	padding-top:30px;
 }
 
 .site-content {
@@ -1574,7 +1576,14 @@ blockquote:after,
  */
 
 .site-header {
-	padding: 2.625em 7.6923%;
+	padding: 0.625em 7.6923%;
+	position: fixed;
+	background: #FFF;
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	border-bottom: 2px solid #000;
+
 }
 
 .site-header-main {
@@ -1676,7 +1685,12 @@ blockquote:after,
 
 .header-image {
 	clear: both;
-	margin: 0.875em 0;
+	margin: 0;
+}
+
+.header-image img {
+	width:100%;
+	padding: 0px 80px;
 }
 
 .header-image a {
@@ -2056,9 +2070,8 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .page-header {
-	border-top: 4px solid #1a1a1a;
 	margin: 0 7.6923% 3.5em;
-	padding-top: 1.75em;
+	padding-top: 2.75em;
 }
 
 body.error404 .page-header,

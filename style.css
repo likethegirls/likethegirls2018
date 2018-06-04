@@ -913,6 +913,19 @@ a:active {
 	margin-top: 1.75em;
 }
 
+.entry-titles .entry-header,
+.entry-titles .entry-header .entry-title {
+	margin-bottom: 0px;
+}
+
+.entry-titles .entry-footer {
+	margin-top: 0px;
+}
+
+.entry-titles {
+	padding: 20px 0px;	
+}
+
 .site-footer .social-navigation {
 	margin-bottom: 1.75em;
 }
@@ -2072,9 +2085,11 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .page-header {
-	margin: 0 7.6923% 3.5em;
-	padding-top: 2.75em;
+	margin: 0 0 1.25em;
+	padding-top: 2.25em;
 	text-align:center;
+	padding-bottom: 0.75em;
+	border-bottom: 2px solid #f6f6f6;
 }
 
 body.error404 .page-header,
@@ -3162,6 +3177,7 @@ p > video {
 
 	.site-content {
 		padding: 0 4.5455%;
+		padding-top:20px;
 	}
 
 	.content-area {

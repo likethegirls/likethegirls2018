@@ -1608,6 +1608,8 @@ blockquote:after,
 
 .custom-logo-link {
 	display: block;
+	width:100%;
+	text-align:center;
 }
 
 .custom-logo {
@@ -2072,6 +2074,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .page-header {
 	margin: 0 7.6923% 3.5em;
 	padding-top: 2.75em;
+	text-align:center;
 }
 
 body.error404 .page-header,

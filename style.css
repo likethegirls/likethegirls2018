@@ -922,9 +922,15 @@ a:active {
 	margin-top: 0px;
 }
 
-.entry-titles {
-	padding: 20px 0px;	
+.entry-titles {	
 	position:inherit;
+	padding:6px 4px;
+}
+
+.entry-titles .posted-on, 
+.entry-titles .entry-format,
+.entry-titles .comments-link { 
+	display: none; 
 }
 
 .site-footer .social-navigation {
@@ -2037,9 +2043,12 @@ body:not(.search-results) .entry-summary > :last-child,
 	color: #686868;
 }
 
-.entry-header h2 a {
+.entry-header h2 a,
+.entry-header h2 {
 	color: #000;
-	text-transform:uppercase;
+	font-weight:100;
+	font-size:18px;
+	line-height:1.25em;
 }
 
 .entry-header a:hover,
@@ -2062,15 +2071,18 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header .cat-links {
 	position: absolute;
 	top: -20px;
-	padding: 2px 6px;
+	padding: 2px 8px;
 	left: 0;
-	background: #FFF;
+	background: #000;
+	line-height:1.2em;
 }
 
 .entry-header .cat-links a {
-	color: #000;
+	color: #FFF;
 	font-weight:bold;
-	text-transform: uppercase
+	text-transform: uppercase;
+	font-size:0.8em;
+
 }
 
 
@@ -3196,7 +3208,6 @@ p > video {
 
 	.site-content {
 		padding: 0 4.5455%;
-		padding-top:20px;
 	}
 
 	.content-area {

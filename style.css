@@ -2037,7 +2037,8 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-header p {
 	display:inline;
-	font-size:0.75em;
+	font-size:0.85em;
+	cursor:pointer;
 }
 
 .entry-header:empty {
@@ -2053,7 +2054,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header h2 {
 	color: #000;
 	font-weight:100;
-	font-size:1.25em;
+	font-size:1em;
 	line-height:1.25em;
 	padding: 6px 0px;
 }

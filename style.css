@@ -924,6 +924,7 @@ a:active {
 
 .entry-titles {
 	padding: 20px 0px;	
+	position:inherit;
 }
 
 .site-footer .social-navigation {
@@ -1577,6 +1578,7 @@ blockquote:after,
 
 .site-main {
 	margin-bottom: 3.5em;
+	margin-top: 3.5em;
 }
 
 .site-main > :last-child {
@@ -1626,7 +1628,7 @@ blockquote:after,
 }
 
 .custom-logo {
-	max-width: 180px;
+	max-width: 240px;
 }
 
 .site-title {
@@ -1726,7 +1728,7 @@ blockquote:after,
 	position: relative;
 }
 
-.entry-header,
+.entry-titles,
 .entry-summary,
 .entry-content,
 .entry-footer,
@@ -2019,40 +2021,58 @@ body:not(.search-results) .entry-summary > :last-child,
 	white-space: nowrap;
 }
 
-.entry-footer {
+.entry-header {
 	color: #686868;
 	font-family: Montserrat, "Helvetica Neue", sans-serif;
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
-	margin-top: 2.1538461538em;
 }
 
-.entry-footer:empty {
+.entry-header:empty {
 	margin: 0;
 }
 
-.entry-footer a {
+.entry-header a {
 	color: #686868;
 }
 
-.entry-footer a:hover,
-.entry-footer a:focus {
+.entry-header h2 a {
+	color: #000;
+	text-transform:uppercase;
+}
+
+.entry-header a:hover,
+.entry-header a:focus {
 	color: #007acc;
 }
 
-.entry-footer > span:not(:last-child):after {
-	content: "\002f";
+.entry-header > span:not(:last-child):after {
 	display: inline-block;
 	opacity: 0.7;
 	padding: 0 0.538461538em;
 }
 
-.entry-footer .avatar {
+.entry-header .avatar {
 	height: 21px;
 	margin: -0.1538461538em 0.5384615385em 0 0;
 	width: 21px;
 }
+
+.entry-header .cat-links {
+	position: absolute;
+	top: -20px;
+	padding: 2px 6px;
+	left: 0;
+	background: #FFF;
+}
+
+.entry-header .cat-links a {
+	color: #000;
+	font-weight:bold;
+	text-transform: uppercase
+}
+
 
 .sticky-post {
 	color: #686868;
@@ -2211,7 +2231,6 @@ body.search-no-results .page-header {
 .archive .format-status .entry-title {
 	display: none;
 }
-
 
 /**
  * 11.4 - Comments

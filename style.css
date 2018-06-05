@@ -2031,8 +2031,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header {
 	color: #686868;
 	font-family: Montserrat, "Helvetica Neue", sans-serif;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 0.85em;
 	line-height: 1.6153846154;
 }
 
@@ -2053,7 +2052,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header h2 {
 	color: #000;
 	font-weight:100;
-	font-size:14px;
+	font-size:1em;
 	line-height:1.25em;
 	padding: 6px 0px;
 }

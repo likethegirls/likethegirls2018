@@ -1424,6 +1424,9 @@ blockquote:after,
 	clear: both;
 }
 
+.site-content {
+	margin-top: 52px;
+}
 
 /**
  * 10.0 - Widgets
@@ -1582,7 +1585,6 @@ blockquote:after,
 
 .site-main {
 	margin-bottom: 3.5em;
-	margin-top: 3.5em;
 }
 
 .site-main > :last-child {
@@ -1984,6 +1986,7 @@ body:not(.search-results) .entry-summary > :last-child,
 	font-weight:600;
 	color:#000;
 	font-size:0.8em;
+	line-height:1em;
 }
 
 .author-info {
@@ -2125,7 +2128,6 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .page-header {
 	margin: 0 0 1.25em;
-	padding-top: 2.25em;
 	text-align:center;
 	padding-bottom: 0.75em;
 	border-bottom: 2px solid #f6f6f6;
@@ -2897,16 +2899,6 @@ p > video {
 		padding: 0.8125em 0.875em 0.6875em;
 	}
 
-	.site-header-menu {
-		margin: 1.3125em 0;
-	    -webkit-flex: 0 1 100%;
-	    -ms-flex: 0 1 100%;
-		flex: 0 1 100%;
-		width:auto;
-		position:inherit;
-		display:inline-block;
-	}
-
 	.site-header .main-navigation + .social-navigation {
 		margin-top: 2.625em;
 	}
@@ -3085,13 +3077,6 @@ p > video {
 		-webkit-align-items: center;
 		-ms-flex-align: center;
 		align-items: center;
-	}
-
-	.site-header-menu {
-		display: block;
-		-webkit-flex: 0 1 auto;
-		-ms-flex: 0 1 auto;
-		flex: 0 1 auto;
 	}
 
 	.main-navigation {
@@ -3516,7 +3501,6 @@ p > video {
 	}
 
 	.site-branding,
-	.site-header-menu,
 	.header-image {
 		margin-top: 1.75em;
 		margin-bottom: 1.75em;

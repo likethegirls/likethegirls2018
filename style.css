@@ -2038,7 +2038,6 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header p {
 	display:inline;
 	font-size:0.85em;
-	cursor:pointer;
 }
 
 .entry-header:empty {

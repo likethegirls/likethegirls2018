@@ -2032,11 +2032,12 @@ body:not(.search-results) .entry-summary > :last-child,
 	color: #686868;
 	font-family: Montserrat, "Helvetica Neue", sans-serif;
 	font-size: 0.85em;
-	line-height: 1.6153846154;
+	line-height: 1em;
 }
 
 .entry-header p {
 	display:inline;
+	font-size:0.75em;
 }
 
 .entry-header:empty {
@@ -2052,7 +2053,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header h2 {
 	color: #000;
 	font-weight:100;
-	font-size:1em;
+	font-size:1.25em;
 	line-height:1.25em;
 	padding: 6px 0px;
 }

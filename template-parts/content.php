@@ -38,8 +38,9 @@
 			<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 				<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>
 			<?php endif; 
-			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); 
-				twentysixteen_entry_meta(); 
+			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+				the_content("READ MORE", TRUE); 
+				twentysixteen_entry_meta();
 			edit_post_link(
 				sprintf(
 					/* translators: %s: Name of current post */

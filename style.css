@@ -1429,7 +1429,7 @@ blockquote:after,
  */
 
 .widget {
-	border-top: 4px solid #1a1a1a;
+	border-top: 1px solid #F5F5F5;
 	margin-bottom: 3.5em;
 	padding-top: 1.75em;
 }
@@ -1726,7 +1726,7 @@ blockquote:after,
  */
 
 .site-main > article {
-	margin-bottom: 3.5em;
+	margin-bottom: 2.75em;
 	position: relative;
 }
 
@@ -2151,12 +2151,22 @@ body:not(.search-results) .entry-summary > :last-child,
 	display: inline;
 }
 
-.page-header {
+.page-header, .entry-header {
 	margin: 0 0 1.25em;
-	text-align:center;
 	padding-bottom: 0.75em;
-	border-bottom: 2px solid #f6f6f6;
 }
+
+.page-header { 
+	text-align:center;
+	border-bottom: 2px solid #f6f6f6;
+ }
+
+ .page-header h1, .entry-header h1 {
+ 	padding-top: 52px;
+ 	margin-bottom: 0px;
+ 	margin-right: 7.6923%;
+    margin-left: 7.6923%;
+ }
 
 body.error404 .page-header,
 body.search-no-results .page-header {
@@ -2275,6 +2285,24 @@ body.search-no-results .page-header {
 .blog .format-status .entry-title,
 .archive .format-status .entry-title {
 	display: none;
+}
+
+.format-quote .cat-links {
+	display:none;
+}
+
+.format-quote h2::before {
+	content:'"';
+	font-size:1.8em;
+	position:absolute;
+	left:-20px;
+	font-family:cursive;
+	font-style:italic;
+	color:#F1F1F1;
+} 
+
+.format-quote {
+
 }
 
 /**
@@ -2521,7 +2549,8 @@ body.search-no-results .page-header {
  */
 
 .site-footer {
-	padding: 0 7.6923% 1.75em;
+	padding: 20px 7.6923% 40px 1.75em;
+	border-top: 1px solid #f4f4f4;
 }
 
 .site-info {

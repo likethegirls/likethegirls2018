@@ -1772,7 +1772,7 @@ blockquote:after,
 
 
 .menu-toggle.toggled-on::after {
-	color:#fbd54a;
+	content:"X";
 }
 
 .menu-toggle:focus {

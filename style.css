@@ -359,7 +359,7 @@ textarea {
 	font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
-	line-height: 1.75;
+	line-height: 1.4em;
 }
 
 p,h1,h2,h3,h4,h5,h6, {
@@ -379,17 +379,18 @@ h6 {
 	margin: 0;
 	font-size:1.4em;
 	text-rendering: optimizeLegibility;
+	font-family: LiketheGirlsSerif, "serif", serif;
+	line-height:1.1em;
 }
 
 .sticky > .entry-titles > .entry-header > h2.entry-title  {
-    font-size:2rem;
+    font-size:1.6rem;
 }
 
 .entry-title {
 	font-size: 28px;
-	font-size: 1.75rem;
+	font-size: 1.6rem;
 	font-weight: 400;
-	line-height: 1.25;
 	margin-bottom: 1em;
 }
 
@@ -536,11 +537,6 @@ html {
 	-webkit-box-sizing: inherit;
 	-moz-box-sizing: inherit;
 	box-sizing: inherit;
-}
-
-body {
-	background: #1a1a1a;
-	/* Fallback for when there is no custom background color defined. */
 }
 
 hr {
@@ -862,6 +858,7 @@ a:active {
  */
 
 .site-header-menu {
+	display:none;
 	position:fixed;
 	bottom:0;
 	left:0;
@@ -869,6 +866,7 @@ a:active {
 	z-index:100;
 	background:#FFF;
 	border-top: 1px solid #f4f4f4;
+	padding-right:40px;
 }
 
 .site-header-menu.toggled-on,
@@ -883,6 +881,7 @@ a:active {
 .main-navigation ul {
 	list-style: none;
 	margin: 0;
+	line-height:2.4em;
 }
 
 .main-navigation li {
@@ -893,7 +892,7 @@ a:active {
 }
 
 .main-navigation a {
-	color: #686868;
+	color: #686868a6;
 	display: block;
 	outline-offset: -1px;
 	padding: 0.44375em 0;
@@ -1628,7 +1627,7 @@ blockquote:after,
 	margin: 0 auto;
 	max-width: 1320px;
 	position: relative;
-	padding-top:30px;
+	padding-top:2.8em;
 }
 
 .site-content {
@@ -1661,6 +1660,7 @@ blockquote:after,
 	top: 0;
 	border-bottom: 1px solid #f4f4f4;
 	background: #FFF;
+	line-height:2.8em;
 }
 
 .site-header-main {
@@ -1732,6 +1732,11 @@ blockquote:after,
 	font-size: 0.8125rem;
 	margin: 1.076923077em 0;
 	padding: 0.769230769em;
+	position: fixed;
+	bottom:0;
+	right:0;
+	margin-right: 20px;
+	z-index:101;
 }
 
 .no-js .menu-toggle {
@@ -2936,10 +2941,6 @@ p > video {
 		margin-bottom: 5.25em;
 	}
 
-	.site-header {
-		padding: 3.9375em 7.6923%;
-	}
-
 	.site-branding {
 		margin-top: 1.3125em;
 		margin-bottom: 1.3125em;
@@ -3165,7 +3166,7 @@ p > video {
 
 	.main-navigation a {
 		outline-offset: -8px;
-		padding: 0.65625em 0.875em;
+		padding: 1em 0.875em;
 		white-space: nowrap;
 	}
 

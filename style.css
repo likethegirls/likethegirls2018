@@ -645,6 +645,10 @@ td {
 	padding: 0.4375em;
 }
 
+::selection {
+	background: #fbd54a;
+};
+
 /* Placeholder text color -- selectors need to be separate to work. */
 ::-webkit-input-placeholder {
 	color: #686868;
@@ -1816,7 +1820,7 @@ blockquote:after,
 }
 
 .single-post > .site > .site-inner > .site-content {
-padding: 0px 32px;
+padding: 0px 14px;
 }
 
 .entry-titles,
@@ -2218,7 +2222,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
  .page-header h1, .entry-header h1 {
  	padding-top: 52px;
- 	margin-bottom: 0px;
+ 	margin-bottom: 14px;
  	margin-right: 7.6923%;
     margin-left: 7.6923%;
  }
@@ -2373,9 +2377,9 @@ body.search-no-results .page-header {
 
 .comments-title,
 .comment-reply-title {
-	border-top: 4px solid #1a1a1a;
-	font-size: 23px;
-	font-size: 1.4375rem;
+	border-top: 1px solid #1a1a1a;
+	font-size: 22px;
+	font-size: 1rem;
 	font-weight: 700;
 	line-height: 1.3125;
 	padding-top: 1.217391304em;
@@ -2493,14 +2497,14 @@ body.search-no-results .page-header {
 }
 
 .comment-form {
-	padding-top: 1.75em;
+	padding-top: 0.8em;
 }
 
 .comment-form label {
 	color: #686868;
 	display: block;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 12px;
+	font-size: 0.6rem;
 	letter-spacing: 0.076923077em;
 	line-height: 1.6153846154;
 	margin-bottom: 0.5384615385em;
@@ -2515,8 +2519,9 @@ body.search-no-results .page-header {
 .comment-awaiting-moderation,
 .logged-in-as,
 .form-allowed-tags {
-	color: #686868;
-	font-size: 13px;
+	color: #1a1a1a;
+    font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
+	font-size: 12px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
 	margin-bottom: 2.1538461538em;
@@ -2539,8 +2544,8 @@ body.search-no-results .page-header {
 }
 
 .required {
-	color: #007acc;
-	font-family: Merriweather, Georgia, serif;
+	color: #fbd54a;
+	font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
 }
 
 .comment-reply-title small {

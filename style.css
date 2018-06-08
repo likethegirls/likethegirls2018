@@ -402,7 +402,7 @@ h6 {
 
 .entry-title {
 	font-size: 28px;
-	font-size: 1.6rem;
+	font-size: 1.2rem;
 	font-weight: 400;
 	margin-bottom: 1em;
 }
@@ -818,14 +818,14 @@ input[type="search"].search-field {
  */
 
 a {
-	color: #007acc;
+	color: #fbd54a;
 	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #686868;
+	color: #fbd54a;
 }
 
 a:focus {
@@ -1812,7 +1812,6 @@ blockquote:after,
 
 .entry-titles,
 .entry-summary,
-.entry-content,
 .entry-footer,
 .page-content {
 	margin-right: 7.6923%;
@@ -1821,7 +1820,11 @@ blockquote:after,
 
 .post-thumbnail {
 	display: block;
-	margin: 0 7.6923% 1.75em;
+	margin: 0 9.6923% 1.75em;
+}
+
+.post:nth-child(5n) > .entry-content > .post-thumbnail {
+	margin: 0;
 }
 
 .post-thumbnail img {
@@ -1835,11 +1838,6 @@ blockquote:after,
 a.post-thumbnail:hover,
 a.post-thumbnail:focus {
 	opacity: 0.85;
-}
-
-.entry-content,
-.entry-summary {
-	border-color: #d1d1d1;
 }
 
 .entry-content h1,
@@ -2090,7 +2088,7 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .entry-header {
-	color: #686868;
+	color: #2f2f2f;
 	font-size: 0.85em;
 	line-height: 1.6em;
 }
@@ -2171,12 +2169,13 @@ body:not(.search-results) .entry-summary > :last-child,
 	margin-bottom: 0.5384615385em;
 	text-transform: uppercase;
 	position: absolute;
-    top: -15px;
+    top: -12px;
+    left:-10px;
     background: #000;
     color: #FFF;
     font-weight: 800;
     padding: 2px 12px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 .sticky .cat-links {

@@ -40,9 +40,10 @@
 			<?php endif; 
 			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 				the_excerpt(); ?>
-				<a class="more-link" href="%s" rel="bookmark">READ MORE
+				<!-- <a class="more-link" href="%s" rel="bookmark">READ MORE 
 				<?php esc_url(get_permalink()) ?>
-				</a></h2>
+				</a> -->
+				</h2>
 				<?php twentysixteen_entry_meta();
 			edit_post_link(
 				sprintf(

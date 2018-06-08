@@ -396,6 +396,11 @@ h6 {
 	line-height:1.1em;
 }
 
+.page-header h1, .entry-header h1  {
+	font-size: 2em;
+	text-align: center;
+}
+
 .sticky > .entry-titles > .entry-header > h2.entry-title  {
     font-size:1.6rem;
 }
@@ -1810,6 +1815,10 @@ blockquote:after,
 	position: relative;
 }
 
+.single-post > .site > .site-inner > .site-content {
+padding: 0px 32px;
+}
+
 .entry-titles,
 .entry-summary,
 .entry-footer,
@@ -1971,9 +1980,6 @@ a.post-thumbnail:focus {
 }
 
 body:not(.search-results) .entry-summary {
-	color: #686868;
-	font-size: 19px;
-	font-size: 1.1875rem;
 	line-height: 1.4736842105;
 	margin-bottom: 1.4736842105em;
 }

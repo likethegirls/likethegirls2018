@@ -348,6 +348,19 @@ p {
  	font-family: LiketheGirlsSansSerif;
  	src: url('fonts/neuzeit.ttf');
  }
+/*
+ @font-face {
+ 	font-family: LiketheGirlsSerif;
+ 	src: url('fonts/LiketheGirlsSerif.ttf');
+ 	font-style: normal;
+ }
+
+ @font-face {
+ 	font-family: LiketheGirlsSerif;
+ 	src: url('fonts/LiketheGirlsSerifItalic.ttf');
+ 	font-style: italic;
+ }
+ */
 
 
 body, 
@@ -1726,17 +1739,24 @@ blockquote:after,
 
 .menu-toggle {
 	background-color: transparent;
-	border: 1px solid #d1d1d1;
 	color: #1a1a1a;
-	font-size: 13px;
+	font-size: 14px;
 	font-size: 0.8125rem;
-	margin: 1.076923077em 0;
+	margin: 0.476923077em;
+	margin-bottom:0px;
+	margin-right:0px;
 	padding: 0.769230769em;
 	position: fixed;
 	bottom:0;
 	right:0;
-	margin-right: 20px;
 	z-index:101;
+}
+
+.menu-toggle::after {
+	content: "ǁ";
+	font-size:20px;
+	color:#000;
+	font-weight:600;
 }
 
 .no-js .menu-toggle {
@@ -1750,12 +1770,9 @@ blockquote:after,
 	color: #007acc;
 }
 
-.menu-toggle.toggled-on,
-.menu-toggle.toggled-on:hover,
-.menu-toggle.toggled-on:focus {
-	background-color: #1a1a1a;
-	border-color: #1a1a1a;
-	color: #fff;
+
+.menu-toggle.toggled-on::after {
+	color:#fbd54a;
 }
 
 .menu-toggle:focus {

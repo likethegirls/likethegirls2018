@@ -877,9 +877,8 @@ a:active {
 	left:0;
 	width:100%;
 	z-index:100;
-	background:#FFF;
-	border-top: 1px solid #f4f4f4;
-	padding-right:40px;
+	background:#fbd54a;
+	border-top:2px solid #000;
 }
 
 .site-header-menu.toggled-on,
@@ -899,23 +898,22 @@ a:active {
 
 .main-navigation li {
 	position: relative;
-	display: inline-flex;
 	padding: 0px 6px;
-	width: 24%;
+	width: 100%;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .main-navigation a {
-	color: #686868a6;
+	color:#000;
 	display: block;
 	outline-offset: -1px;
 	padding: 0.44375em 0;
 	width:100%;
 	text-align:center;
-	text-transform: uppercase;
-	font-size: 0.7em;
-	font-weight:400;
+	font-weight:200;
 	letter-spacing: 1px;
 	line-height:2.4em;
+	font-family: serif;
 }
 
 .main-navigation a:hover,
@@ -1754,9 +1752,10 @@ blockquote:after,
 
 .menu-toggle::after {
 	content: "ǁ";
-	font-size:20px;
+	font-size:28px;
 	color:#000;
 	font-weight:600;
+	padding:6px;
 }
 
 .no-js .menu-toggle {

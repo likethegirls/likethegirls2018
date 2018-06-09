@@ -887,7 +887,6 @@ a:active {
 	width:100%;
 	z-index:100;
 	background:#fbd54a;
-	border-top:2px solid #000;
 }
 
 .site-header-menu.toggled-on,
@@ -4166,4 +4165,29 @@ p > video {
 	.widecolumn {
 		padding: 0;
 	}
+}
+
+
+
+/* LOADER SCREEN */ 
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #fbd54a;
+    z-index: 1000;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+#loader {
+    z-index: 1001; /* anything higher than z-index: 1000 of .loader-section */
 }

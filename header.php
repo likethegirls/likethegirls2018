@@ -34,7 +34,10 @@
 					<!-- .site-branding -->
 
 				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-				<button id="menu-toggle" class="menu-toggle"><?php _e( ' ', 'twentysixteen' ); ?></button>
+				<button id="menu-toggle" class="menu-toggle"><?php _e( ' ', 'twentysixteen' ); ?>
+					<img class="open-menu" src="wp-content/themes/likethegirls2018/images/menu.png"/>
+					<img class="close-menu" src="wp-content/themes/likethegirls2018/images/close_menu.png"/>
+				</button>
 					<div id="site-header-menu" class="site-header-menu">
 						<?php if ( has_nav_menu( 'primary' ) ) : ?>
 							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">

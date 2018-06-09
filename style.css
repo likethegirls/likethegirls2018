@@ -963,7 +963,6 @@ a:active {
 	right: 0;
 	text-transform: none;
 	top: 0;
-	width: 48px;
 }
 
 .dropdown-toggle:after {
@@ -1744,11 +1743,7 @@ blockquote:after,
 }
 
 .menu-toggle {
-	background-color: transparent;
-	color: #1a1a1a;
-	font-size: 14px;
-	font-size: 0.8125rem;
-	margin: 0.476923077em;
+	width: 42px;
 	margin-bottom:0px;
 	margin-right:0px;
 	padding: 0.769230769em;
@@ -1756,14 +1751,19 @@ blockquote:after,
 	bottom:0;
 	right:0;
 	z-index:101;
+	background:transparent;
 }
 
-.menu-toggle::after {
-	content: "ǁ";
-	font-size:28px;
-	color:#000;
-	font-weight:600;
-	padding:6px;
+.menu-toggle .close-menu {
+	display:none;
+}
+
+.menu-toggle.toggled-on .close-menu {
+	display:block;
+}
+
+.menu-toggle.toggled-on .open-menu {
+	display:none;
 }
 
 .no-js .menu-toggle {
@@ -1775,11 +1775,6 @@ blockquote:after,
 	background-color: transparent;
 	border-color: #007acc;
 	color: #007acc;
-}
-
-
-.menu-toggle.toggled-on::after {
-	content:"X";
 }
 
 .menu-toggle:focus {

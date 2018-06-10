@@ -313,57 +313,57 @@ p {
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('fonts/SemplicitaLightItalic.ttf');
- 	src: url('fonts/SemplicitaLightItalic.otf');
- 	src: url('fonts/SemplicitaLightItalic.woff');
- 	src: url('fonts/SemplicitaLightItalic.woff2');
+ 	src:url('fonts/SemplicitaLightItalic.ttf') format('ttf'), 
+ 		url('fonts/SemplicitaLightItalic.otf') format('otf'),
+ 		url('fonts/SemplicitaLightItalic.woff') format('woff'),
+		url('fonts/SemplicitaLightItalic.woff2') format('woff2');
  	font-weight: 100;
  	font-style: italic;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('fonts/SemplicitaMedium.ttf');
- 	src: url('fonts/SemplicitaMedium.otf');
- 	src: url('fonts/SemplicitaMedium.woff');
- 	src: url('fonts/SemplicitaMedium.woff2');
+ 	src:url('fonts/SemplicitaMedium.ttf') format('ttf'),
+ 		url('fonts/SemplicitaMedium.otf') format('otf'),
+		url('fonts/SemplicitaMedium.woff') format('woff'),
+		url('fonts/SemplicitaMedium.woff2') format('woff2');
  	font-weight: 400;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('fonts/SemplicitaMediumItalic.otf');
- 	src: url('fonts/SemplicitaMediumItalic.woff');
- 	src: url('fonts/SemplicitaMediumItalic.woff2');
+ 	src:url('fonts/SemplicitaMediumItalic.otf') format('otf'),
+		url('fonts/SemplicitaMediumItalic.woff') format('woff'),
+		url('fonts/SemplicitaMediumItalic.woff2') format('woff2');
  	font-weight: 400;
  	font-style: italic;
  }
 
 @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('fonts/SemplicitaBold.otf');
- 	src: url('fonts/SemplicitaBold.woff');
- 	src: url('fonts/SemplicitaBold.woff2');
+ 	src:url('fonts/SemplicitaBold.otf') format('otf'),
+		url('fonts/SemplicitaBold.woff') format('woff'),
+		url('fonts/SemplicitaBold.woff2') format('woff2');
  	font-weight: 600;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('fonts/SemplicitaBoldItalic.ttf');
- 	src: url('fonts/SemplicitaBoldItalic.otf');
- 	src: url('fonts/SemplicitaBoldItalic.woff');
- 	src: url('fonts/SemplicitaBoldItalic.woff2');
+ 	src:url('fonts/SemplicitaBoldItalic.ttf') format('ttf'),
+		url('fonts/SemplicitaBoldItalic.otf') format('otf'),
+		url('fonts/SemplicitaBoldItalic.woff') format('woff'),
+		url('fonts/SemplicitaBoldItalic.woff2') format('woff2');
  	font-weight: 600;
  	font-style: italic;
  }
 
  @font-face {
  	font-family: LiketheGirlsSansSerif;
- 	src: url('fonts/neuzeit.ttf');
- 	src: url('fonts/neuzeit.woff');
- 	src: url('fonts/neuzeit.woff2');
+ 	src:url('fonts/neuzeit.ttf') format('ttf'),
+		url('fonts/neuzeit.woff') format('woff'),
+		url('fonts/neuzeit.woff2') format('woff2');
  }
 /*
  @font-face {

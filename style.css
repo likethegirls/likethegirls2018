@@ -313,7 +313,7 @@ p {
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitalight.otf') format('truetype'),
+ 	src:url('fonts/semplicitalight.ttf') format('truetype'),
  		url('fonts/semplicitalight.otf') format('otf'),
  		url('fonts/semplicitalight.woff') format('woff'),
 		url('fonts/semplicitalight.woff2') format('woff2'),
@@ -398,13 +398,12 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-weight: 500;
+	font-weight: 400;
 	margin: 0;
-	font-size:30px;
 	text-rendering: optimizeLegibility;
-	font-family: "LiketheGirlsSimple", "Helvetica Neue", serif;
 	line-height:1.1em;
 	color:#000;
+	font-family: "LikeTheGirlsSimple", "Helvetica Neue", serif;
 }
 
 .entry-title a:hover,
@@ -2002,8 +2001,7 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header h2 a,
 .entry-header h2 {
 	padding: 6px 0px;
-	font-family: "LikeTheGirlsSimple", "Helvetica Neue", serif;
-    font-weight: 400;
+	
 }
 
 .entry-header > span:not(:last-child):after {

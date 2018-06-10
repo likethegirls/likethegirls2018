@@ -34,29 +34,21 @@
 		?>
 	</div><!-- .entry-content -->
 	<div class="entry-titles col-xs-12">
-		<header class="entry-header">
+		<header class="entry-header h2">
 			<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 				<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>
-			<?php endif;
-			the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+				<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); 
+				 else: 
+				the_title( sprintf( '<h2 class="entry-title small"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+			 endif; 
+			
 			echo('<p class="mt-xs-1">'); the_excerpt(); ?>
 			</p>
 			<!--
 				<a class="more-link" href="%s" rel="bookmark">READ MORE 
 				<?php esc_url(get_permalink()) ?>
 				</a> -->
-				
-				<?php twentysixteen_entry_meta();
-			edit_post_link(
-				sprintf(
-					/* translators: %s: Name of current post */
-					__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'twentysixteen' ),
-					get_the_title()
-				),
-					'<span class="edit-link">',
-					'</span>'
-				);
-			?>
+				<?php twentysixteen_entry_meta();?>
 		</header><!-- .entry-header -->
 	</div>
 </article><!-- #post-## -->

@@ -19,43 +19,39 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="<?php echo get_stylesheet_directory_uri() ?>/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 	<!-- Bootstrap core CSS -->
-    <link href="<?php echo get_stylesheet_directory_uri() ?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo get_stylesheet_directory_uri() ?>/css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<div class="site-inner container">
+	<div class="site-inner container-fluid mt-xs-5">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header col-xs-12" role="banner">
 			<div class="site-header-main navbar-fixed-top">
 				
 					<?php twentysixteen_the_custom_logo(); ?>
-
 					<!-- .site-branding -->
-
-				<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-				<button id="menu-toggle" class="menu-toggle navbar-fixed-bottom visible-xs"><?php _e( ' ', 'twentysixteen' ); ?>
+			</div><!-- .site-header-main -->
+			<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
+				<button id="menu-toggle" class="menu-toggle fixed-bottom visible-xs ml-aut"><?php _e( ' ', 'twentysixteen' ); ?>
 					<img class="open-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/menu.png"/>
 					<img class="close-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/close_menu.png"/>
 				</button>
-					<div id="site-header-menu" class="site-header-menu">
-						<?php if ( has_nav_menu( 'primary' ) ) : ?>
-							<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
-								<?php
-									wp_nav_menu( array(
-										'theme_location' => 'primary',
-										'menu_class'     => 'primary-menu',
-									 ) );
-								?>
-							</nav><!-- .main-navigation -->
-						<?php endif; ?>
-					</div><!-- .site-header-menu -->
-				<?php endif; ?>
-			</div><!-- .site-header-main -->
+				<div id="site-header-menu" class="site-header-menu">
+					<?php if ( has_nav_menu( 'primary' ) ) : ?>
+						<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
+							<?php
+								wp_nav_menu( array(
+									'theme_location' => 'primary',
+									'menu_class'     => 'primary-menu',
+								 ) );
+							?>
+						</nav><!-- .main-navigation -->
+					<?php endif; ?>
+				</div><!-- .site-header-menu -->
+			<?php endif; ?>
 
 			<?php if ( get_header_image() ) : ?>
 				<?php
@@ -78,4 +74,4 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		<div id="content" class="site-content">
+		<div id="content" class="site-content row">

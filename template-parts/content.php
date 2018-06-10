@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('row'); ?>>
 	<div class="entry-content">
 		<?php
 			twentysixteen_post_thumbnail();
@@ -33,7 +33,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<div class="entry-titles">
+	<div class="entry-titles col-xs-10 col-xs-push-1">
 		<header class="entry-header">
 			<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 				<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>

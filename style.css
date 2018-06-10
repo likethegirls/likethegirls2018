@@ -402,7 +402,7 @@ h6 {
 }
 
 .sticky > .entry-titles > .entry-header > h2.entry-title  {
-    font-size:1.6rem;
+    font-size:2.4rem;
 }
 
 .entry-title {
@@ -1169,7 +1169,6 @@ a:active {
 	border-top: 4px solid #1a1a1a;
 	border-bottom: 4px solid #1a1a1a;
 	clear: both;
-	margin: 0 7.6923% 3.5em;
 }
 
 .post-navigation a {
@@ -1214,7 +1213,6 @@ a:active {
 	border-top: 4px solid #1a1a1a;
 	font-size: 19px;
 	font-size: 1.1875rem;
-/*	margin: 0 7.6923% 2.947368421em; */
 	min-height: 56px;
 	position: relative;
 }
@@ -1353,7 +1351,6 @@ a:active {
 	font-size: 13px;
 	font-size: 0.8125rem;
 	line-height: 1.6153846154;
-/*	margin: 0 7.6923% 2.1538461538em; */
 	padding: 1.0769230769em 0;
 }
 
@@ -1659,29 +1656,6 @@ blockquote:after,
  * 11.1 - Header
  */
 
-.site-header {
-	padding: 0.25em 7.6923%;
-	position: fixed;
-	width: 100%;
-	z-index: 100;
-	top: 0;
-	border-bottom: 1px solid #f4f4f4;
-	background: #FFF;
-	line-height:2.8em;
-}
-
-.site-header-main {
-	-webkit-align-items: center;
-	-ms-flex-align: center;
-	align-items: center;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-
 .site-branding {
 	margin: 0.875em auto 0.875em 0;
 	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
@@ -1694,31 +1668,12 @@ blockquote:after,
 	display: block;
 	width:100%;
 	text-align:center;
+	background:#FFF;
+	padding:14px;
 }
 
 .custom-logo {
-	max-width: 160px;
-}
-
-.site-title {
-	font-size: 23px;
-	font-size: 1.4375rem;
-	font-weight: 700;
-	line-height: 1.2173913043;
-	margin: 0;
-}
-
-.site-branding .site-title a {
-	color: #1a1a1a;
-}
-
-.site-branding .site-title a:hover,
-.site-branding .site-title a:focus {
-	color: #007acc;
-}
-
-.wp-custom-logo .site-title {
-	margin-top: 0.608695652em;
+	max-width: 180px;
 }
 
 .site-description {
@@ -1802,25 +1757,13 @@ blockquote:after,
 	position: relative;
 }
 
-.single-post > .site > .site-inner > .site-content {
-padding: 0px 14px;
-}
-
-.entry-titles,
-.entry-summary,
-.entry-footer,
-.page-content {
-	margin-right: 7.6923%;
-	margin-left: 7.6923%;
-}
-
 .post-thumbnail {
 	display: block;
 	margin: 0 9.6923% 1.75em;
 }
 
-.post:nth-child(5n) > .entry-content > .post-thumbnail {
-	margin: 0;
+.post:nth-child(4n) .post-thumbnail {
+	margin: 0!important;
 }
 
 .post-thumbnail img {
@@ -2150,11 +2093,6 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 
-.site-main > .sticky > .entry-titles .entry-header .entry-title {
-    padding: 12px 0px;
-}
-
-
 .sticky-post {
 	display: block;
 	letter-spacing: 0.076923077em;
@@ -2168,7 +2106,7 @@ body:not(.search-results) .entry-summary > :last-child,
     color: #FFF;
     font-weight: 800;
     padding: 2px 12px;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 .sticky .cat-links {
@@ -2201,13 +2139,6 @@ body:not(.search-results) .entry-summary > :last-child,
 .page-header { 
 	text-align:center;
 	border-bottom: 2px solid #f6f6f6;
- }
-
- .page-header h1, .entry-header h1 {
- 	padding-top: 52px;
- 	margin-bottom: 14px;
- 	margin-right: 7.6923%;
-    margin-left: 7.6923%;
  }
 
 body.error404 .page-header,
@@ -2295,17 +2226,6 @@ body.search-no-results .page-header {
 	margin-bottom: 0;
 }
 
-/*
-.content-bottom-widgets {
-	margin: 0 7.6923%;
-}
-
-
-.content-bottom-widgets .widget-area {
-	margin-bottom: 3.5em;
-}
-*/
-
 
 /**
  * 11.3 - Post Formats
@@ -2351,10 +2271,6 @@ body.search-no-results .page-header {
 /**
  * 11.4 - Comments
  */
-
-.comments-area {
-	margin: 0 7.6923% 3.5em;
-}
 
 .comment-list + .comment-respond,
 .comment-navigation + .comment-respond {
@@ -2574,7 +2490,6 @@ body.search-no-results .page-header {
  */
 
 .site-footer {
-	padding: 20px 7.6923% 40px 1.75em;
 	border-top: 1px solid #f4f4f4;
 }
 

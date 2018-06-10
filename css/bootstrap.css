@@ -11,6 +11,9 @@ html {
 }
 body {
   margin: 0;
+  min-width:360px;   
+  width: auto !important;  
+  width:360px;      
 }
 article,
 aside,
@@ -1216,7 +1219,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 34px;
+  font-size: 28px;
 }
 h3,
 .h3 {
@@ -4301,6 +4304,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
+    position:absolute;
   }
 }
 .navbar-fixed-top {

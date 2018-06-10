@@ -25,7 +25,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<div class="site-inner container-fluid mt-xs-1">
+	<div class="site-inner container-fluid mt-xs-2">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header col-xs-12" role="banner">
@@ -74,4 +74,4 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		<div id="content" class="site-content row">
+		<div id="content" class="site-content row mt-md-4">

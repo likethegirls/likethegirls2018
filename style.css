@@ -305,20 +305,28 @@ p {
  @font-face {
  	font-family: likeTheGirlsSimple;
  	src: url('fonts/SemplicitaLight.otf');
+ 	src: url('fonts/SemplicitaLight.woff');
+ 	src: url('fonts/SemplicitaLight.woff2');
  	font-weight: 100;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
+ 	src: url('fonts/SemplicitaLightItalic.ttf');
  	src: url('fonts/SemplicitaLightItalic.otf');
+ 	src: url('fonts/SemplicitaLightItalic.woff');
+ 	src: url('fonts/SemplicitaLightItalic.woff2');
  	font-weight: 100;
  	font-style: italic;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
+ 	src: url('fonts/SemplicitaMedium.ttf');
  	src: url('fonts/SemplicitaMedium.otf');
+ 	src: url('fonts/SemplicitaMedium.woff');
+ 	src: url('fonts/SemplicitaMedium.woff2');
  	font-weight: 400;
  	font-style: normal;
  }
@@ -326,6 +334,8 @@ p {
  @font-face {
  	font-family: likeTheGirlsSimple;
  	src: url('fonts/SemplicitaMediumItalic.otf');
+ 	src: url('fonts/SemplicitaMediumItalic.woff');
+ 	src: url('fonts/SemplicitaMediumItalic.woff2');
  	font-weight: 400;
  	font-style: italic;
  }
@@ -333,13 +343,18 @@ p {
 @font-face {
  	font-family: likeTheGirlsSimple;
  	src: url('fonts/SemplicitaBold.otf');
+ 	src: url('fonts/SemplicitaBold.woff');
+ 	src: url('fonts/SemplicitaBold.woff2');
  	font-weight: 600;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: likeTheGirlsSimple;
+ 	src: url('fonts/SemplicitaBoldItalic.ttf');
  	src: url('fonts/SemplicitaBoldItalic.otf');
+ 	src: url('fonts/SemplicitaBoldItalic.woff');
+ 	src: url('fonts/SemplicitaBoldItalic.woff2');
  	font-weight: 600;
  	font-style: italic;
  }
@@ -347,6 +362,8 @@ p {
  @font-face {
  	font-family: LiketheGirlsSansSerif;
  	src: url('fonts/neuzeit.ttf');
+ 	src: url('fonts/neuzeit.woff');
+ 	src: url('fonts/neuzeit.woff2');
  }
 /*
  @font-face {
@@ -1671,6 +1688,7 @@ blockquote:after,
 	text-align:center;
 	background:#FFF;
 	padding:14px;
+	border-bottom:1px solid #F4F4F4;
 }
 
 .custom-logo {
@@ -2023,10 +2041,6 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header {
 	color: #2f2f2f;
 	line-height: 1.8em;
-}
-
-.entry-header p {
-	display:inline;
 }
 
 .entry-header:empty {

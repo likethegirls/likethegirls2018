@@ -304,7 +304,7 @@ p {
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src: url('./wp-includes/fonts/SemplicitaLight.otf');
+ 	src: url('fonts/SemplicitaLight.otf');
  	font-weight: 100;
  	font-style: normal;
  }
@@ -341,12 +341,12 @@ p {
  	font-family: likeTheGirlsSimple;
  	src: url('fonts/SemplicitaBoldItalic.otf');
  	font-weight: 600;
- 	font-style: normal;
+ 	font-style: italic;
  }
 
  @font-face {
  	font-family: LiketheGirlsSansSerif;
- 	src: url('http://www.likethegirls.com/wp-content/themes/likethegirls2018/fonts/neuzeit.ttf');
+ 	src: url('fonts/neuzeit.ttf');
  }
 /*
  @font-face {
@@ -402,7 +402,7 @@ h6 {
 }
 
 .sticky > .entry-titles > .entry-header > h2.entry-title  {
-    font-size:2.4rem;
+    font-size:2.8rem;
 }
 
 .entry-title {
@@ -918,10 +918,11 @@ a:active {
 	padding: 0.44375em 0;
 	width:100%;
 	text-align:center;
-	font-weight:200;
+	font-weight:400;
 	letter-spacing: 1px;
 	line-height:2.4em;
-	font-family: serif;
+	font-size:1.8em;
+	font-family: "LikeTheGirlsSimple"
 }
 
 .main-navigation a:hover,
@@ -1974,11 +1975,7 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .more-link {
-	white-space: nowrap;
-	font-weight:600;
-	color:#000;
-	font-size:0.8em;
-	line-height:1em;
+	display:none;
 }
 
 .author-info {
@@ -2025,8 +2022,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-header {
 	color: #2f2f2f;
-	font-size: 0.85em;
-	line-height: 1.6em;
+	line-height: 1.8em;
 }
 
 .entry-header p {
@@ -2041,6 +2037,8 @@ body:not(.search-results) .entry-summary > :last-child,
 .entry-header h2 a,
 .entry-header h2 {
 	padding: 6px 0px;
+	font-family: "LikeTheGirlsSimple", "Helvetica Neue", serif;
+    font-weight: 400;
 }
 
 .entry-header a:hover,
@@ -2101,12 +2099,12 @@ body:not(.search-results) .entry-summary > :last-child,
 	text-transform: uppercase;
 	position: absolute;
     top: -12px;
-    left:-10px;
     background: #000;
     color: #FFF;
-    font-weight: 800;
-    padding: 2px 12px;
+    font-weight: 600;
+    padding: 4px 12px;
     font-size: 0.9em;
+
 }
 
 .sticky .cat-links {

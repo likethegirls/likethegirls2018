@@ -33,7 +33,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<div class="entry-titles col-xs-10 col-xs-push-1">
+	<div class="entry-titles col-xs-12">
 		<header class="entry-header">
 			<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 				<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>

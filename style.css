@@ -313,7 +313,7 @@ p {
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src:url('fonts/SemplicitaLightItalic.ttf') format('ttf'), 
+ 	src:url('fonts/SemplicitaLightItalic.ttf') format('truetype'), 
  		url('fonts/SemplicitaLightItalic.otf') format('otf'),
  		url('fonts/SemplicitaLightItalic.woff') format('woff'),
 		url('fonts/SemplicitaLightItalic.woff2') format('woff2');
@@ -323,7 +323,7 @@ p {
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src:url('fonts/SemplicitaMedium.ttf') format('ttf'),
+ 	src:url('fonts/SemplicitaMedium.ttf') format('truetype'),
  		url('fonts/SemplicitaMedium.otf') format('otf'),
 		url('fonts/SemplicitaMedium.woff') format('woff'),
 		url('fonts/SemplicitaMedium.woff2') format('woff2');
@@ -351,7 +351,7 @@ p {
 
  @font-face {
  	font-family: likeTheGirlsSimple;
- 	src:url('fonts/SemplicitaBoldItalic.ttf') format('ttf'),
+ 	src:url('fonts/SemplicitaBoldItalic.ttf') format('truetype'),
 		url('fonts/SemplicitaBoldItalic.otf') format('otf'),
 		url('fonts/SemplicitaBoldItalic.woff') format('woff'),
 		url('fonts/SemplicitaBoldItalic.woff2') format('woff2');
@@ -361,7 +361,7 @@ p {
 
  @font-face {
  	font-family: LiketheGirlsSansSerif;
- 	src:url('fonts/neuzeit.ttf') format('ttf'),
+ 	src:url('fonts/neuzeit.ttf') format('truetype'),
 		url('fonts/neuzeit.woff') format('woff'),
 		url('fonts/neuzeit.woff2') format('woff2');
  }

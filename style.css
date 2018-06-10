@@ -387,7 +387,7 @@ textarea,
 p {
 	color: #424242;
 	font-family: LiketheGirlsSansSerif, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1.6rem;
 }
 
@@ -1730,11 +1730,6 @@ blockquote:after,
 	position: relative;
 }
 
-.post-thumbnail {
-	display: block;
-	margin: 0 9.6923% 1.75em;
-}
-
 .post:nth-child(4n) .post-thumbnail {
 	margin: 0!important;
 }
@@ -1947,7 +1942,9 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .more-link {
-	display:none;
+	font-size: 0.8rem;
+	color: #000;
+	font-weight: 600;
 }
 
 .author-info {
@@ -2021,23 +2018,6 @@ body:not(.search-results) .entry-summary > :last-child,
 	width: 21px;
 }
 
-.entry-header .cat-links {
-	position: absolute;
-	top: -30px;
-	padding: 2px 8px;
-	left: 0;
-	background: #FFF;
-	line-height:1.2em;
-}
-
-.entry-header .cat-links a {
-	color: #000;
-	font-weight:bold;
-	text-transform: uppercase;
-	font-size:0.8em;
-
-}
-
 .site-main > .sticky {
 	border-bottom: 1px solid #F5F5F5;
 	padding-bottom: 20px;
@@ -2051,24 +2031,34 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .site-main > .sticky > .entry-content > a {
 	margin: 0;
+	padding: 0;
 }
 
 
-.sticky-post {
+.sticky-post, 
+.cat-links {
 	display: block;
 	letter-spacing: 0.076923077em;
 	line-height: 1.6153846154;
 	margin-bottom: 0.5384615385em;
 	text-transform: uppercase;
 	position: absolute;
-    top: -35px;
+    top: -16px;
+    left:0;
     background: #000;
     color: #FFF;
     font-weight: 600;
-    padding: 4px 12px;
-    font-size: 0.8em;
+    padding: 6px 14px;
+    font-size: 0.8rem;
 
 }
+
+
+.entry-header .cat-links {
+	background: #FFF;
+	color:#000;
+}
+
 
 .sticky .cat-links {
 	display: none;

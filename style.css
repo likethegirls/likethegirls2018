@@ -103,7 +103,16 @@ template {
 
 a {
 	background-color: transparent;
+	color:#000;
+	text-decoration: none;
 }
+
+a:hover,
+a:focus,
+a:active {
+	color: #fbd54a;
+}
+
 
 abbr[title] {
 	border-bottom: 1px dotted;
@@ -373,19 +382,14 @@ body,
 button,
 input,
 select,
-textarea {
-	color: #1a1a1a;
-	font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.4em;
+html,
+textarea,
+p {
+	color: #424242;
+	font-family: LiketheGirlsSansSerif, sans-serif;
+	font-size: 18px;
+	line-height: 1.6rem;
 }
-
-p,h1,h2,h3,h4,h5,h6, {
-	font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
-
-}
-
 
 h1,
 h2,
@@ -396,35 +400,16 @@ h6 {
 	clear: both;
 	font-weight: 500;
 	margin: 0;
-	font-size:1.4em;
+	font-size:30px;
 	text-rendering: optimizeLegibility;
-	font-family: LiketheGirlsSerif, "serif", serif;
+	font-family: "LiketheGirlsSimple", "Helvetica Neue", serif;
 	line-height:1.1em;
-}
-
-.page-header h1, .entry-header h1  {
-	font-size: 2em;
-	text-align: center;
-}
-
-.sticky > .entry-titles > .entry-header > h2.entry-title  {
-    font-size:2.8rem;
-}
-
-.entry-title {
-	font-size: 28px;
-	font-size: 1.2rem;
-	font-weight: 400;
-	margin-bottom: 1em;
-}
-
-.entry-title a {
-	color: #1a1a1a;
+	color:#000;
 }
 
 .entry-title a:hover,
 .entry-title a:focus {
-	color: #007acc;
+	color: #fbd54a;
 }
 
 dfn,
@@ -831,26 +816,6 @@ input[type="search"].search-field {
 /**
  * 6.1 - Links
  */
-
-a {
-	color: #fbd54a;
-	text-decoration: none;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: #fbd54a;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover,
-a:active {
-	outline: 0;
-}
 
 .entry-summary a,
 .taxonomy-description a,
@@ -2044,11 +2009,6 @@ body:not(.search-results) .entry-summary > :last-child,
     font-weight: 400;
 }
 
-.entry-header a:hover,
-.entry-header a:focus {
-	color: #007acc;
-}
-
 .entry-header > span:not(:last-child):after {
 	display: inline-block;
 	opacity: 0.7;
@@ -2063,7 +2023,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-header .cat-links {
 	position: absolute;
-	top: -20px;
+	top: -30px;
 	padding: 2px 8px;
 	left: 0;
 	background: #FFF;
@@ -2101,12 +2061,12 @@ body:not(.search-results) .entry-summary > :last-child,
 	margin-bottom: 0.5384615385em;
 	text-transform: uppercase;
 	position: absolute;
-    top: -12px;
+    top: -35px;
     background: #000;
     color: #FFF;
     font-weight: 600;
     padding: 4px 12px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 
 }
 

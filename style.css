@@ -313,69 +313,69 @@ p {
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitalight.ttf') format('truetype'),
- 		url('fonts/semplicitalight.otf') format('otf'),
- 		url('fonts/semplicitalight.woff') format('woff'),
-		url('fonts/semplicitalight.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalight.ttf') format('truetype'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalight.otf') format('otf'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalight.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalight.woff2') format('woff2');
  	font-weight: 100;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitalightitalic.ttf') format('truetype'), 
- 		url('fonts/semplicitalightitalic.otf') format('otf'),
- 		url('fonts/semplicitalightitalic.woff') format('woff'),
-		url('fonts/semplicitalightitalic.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalightitalic.ttf') format('truetype'), 
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalightitalic.otf') format('otf'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalightitalic.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitalightitalic.woff2') format('woff2');
  	font-weight: 100;
  	font-style: italic;
  }
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitamedium.ttf') format('truetype'),
- 		url('fonts/semplicitamedium.otf') format('otf'),
-		url('fonts/semplicitamedium.woff') format('woff'),
-		url('fonts/semplicitamedium.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamedium.ttf') format('truetype'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamedium.otf') format('otf'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamedium.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamedium.woff2') format('woff2');
  	font-weight: 400;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitamediumitalic.ttf') format('truetype'),
- 		url('fonts/semplicitamediumitalic.otf') format('otf'),
-		url('fonts/semplicitamediumitalic.woff') format('woff'),
-		url('fonts/semplicitamediumitalic.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamediumitalic.ttf') format('truetype'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamediumitalic.otf') format('otf'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamediumitalic.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitamediumitalic.woff2') format('woff2');
  	font-weight: 400;
  	font-style: italic;
  }
 
 @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitabold.ttf') format('truetype'),
- 		url('fonts/semplicitabold.otf') format('otf'),
-		url('fonts/semplicitabold.woff') format('woff'),
-		url('fonts/semplicitabold.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabold.ttf') format('truetype'),
+ 		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabold.otf') format('otf'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabold.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabold.woff2') format('woff2');
  	font-weight: 600;
  	font-style: normal;
  }
 
  @font-face {
  	font-family: "likeTheGirlsSimple";
- 	src:url('fonts/semplicitabolditalic.ttf') format('truetype'),
-		url('fonts/semplicitabolditalic.otf') format('otf'),
-		url('fonts/semplicitabolditalic.woff') format('woff'),
-		url('fonts/semplicitabolditalic.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabolditalic.ttf') format('truetype'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabolditalic.otf') format('otf'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabolditalic.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/semplicitabolditalic.woff2') format('woff2');
  	font-weight: 600;
  	font-style: italic;
  }
 
  @font-face {
  	font-family: "LiketheGirlsSansSerif";
- 	src:url('fonts/neuzeit.ttf') format('truetype'),
-		url('fonts/neuzeit.woff') format('woff'),
-		url('fonts/neuzeit.woff2') format('woff2');
+ 	src:url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/neuzeit.ttf') format('truetype'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/neuzeit.woff') format('woff'),
+		url('http://likethegirls.com/wp-content/themes/likethegirls2018/fonts/neuzeit.woff2') format('woff2');
  }
 
 body, 

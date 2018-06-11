@@ -71,7 +71,7 @@ if ( post_password_required() ) {
 
 	<?php
 		comment_form( array(
-			'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
+			'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title mt-xs-2">',
 			'title_reply_after'  => '</h2>',
 		) );
 	?>

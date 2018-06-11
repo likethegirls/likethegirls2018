@@ -42,7 +42,7 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			 endif; 
 			
-			echo('<p class="mt-xs-1">'); the_excerpt(); ?>
+			the_excerpt(); ?>
 			</p>
 			<!--
 				<a class="more-link" href="%s" rel="bookmark">READ MORE 

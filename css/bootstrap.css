@@ -1164,8 +1164,9 @@ h6 .small,
 .h4 .small,
 .h5 .small,
 .h6 .small {
-  font-weight: normal;
+  font-weight: 100;
   color: #777;
+  font-family: "LikeTheGirlsSimple", sans-serif;
 }
 h1,
 .h1,
@@ -1173,8 +1174,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 h1 small,
 .h1 small,
@@ -1219,7 +1220,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 20px;
+  font-size: 24px;
 }
 h3,
 .h3 {

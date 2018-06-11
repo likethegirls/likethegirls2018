@@ -2020,6 +2020,8 @@ body:not(.search-results) .entry-summary > :last-child,
 .site-main > .sticky {
 	border-bottom: 1px solid #F5F5F5;
 	padding-bottom: 20px;
+	margin-right: -15px;
+    margin-left: -15px;
 }
 
 .sticky .entry-content {

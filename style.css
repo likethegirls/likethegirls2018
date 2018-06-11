@@ -404,6 +404,7 @@ h6 {
 	line-height:1.4em;
 	color:#000;
 	font-family: "LikeTheGirlsSimple", "Helvetica Neue", serif;
+	padding: 6px 0px 20px 0px;
 }
 
 .entry-title a:hover,
@@ -411,12 +412,15 @@ h6 {
 	color: #fbd54a;
 }
 
-.entry-title {
-	font-family: "LikeTheGirlsSimple", sans-serif;
+.entry-title a {
+	color:#000;	
+	font-weight:400;
+}
+
+.post > .entry-header > .entry-title {
+	border-bottom: 1px solid #000;
     line-height: 1.2em;
     font-size: 30px;
-    border-bottom: 1px solid #000;
-    padding-bottom: 20px;
 }
 
 dfn,
@@ -1999,13 +2003,6 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-header:empty {
 	margin: 0;
-}
-
-
-.entry-header h2 a,
-.entry-header h2 {
-	padding: 6px 0px;
-	
 }
 
 .entry-header > span:not(:last-child):after {

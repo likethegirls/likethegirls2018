@@ -8,8 +8,8 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="entry-content mt-xs-4">
+<article id="post-<?php the_ID(); ?>" <?php post_class('col-sm-6'); ?>>
+	<div class="entry-content mt-xs-2 mt-sm-0">
 		<?php
 			twentysixteen_post_thumbnail();
 		/* translators: %s: Name of current post */

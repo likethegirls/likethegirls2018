@@ -25,11 +25,11 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<div class="site-inner container-fluid mt-xs-4">
+	<div class="site-inner container-fluid">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header col-xs-12" role="banner">
-			<div class="site-header-main navbar-fixed-top">
+			<div class="site-header-main navbar-fixed-top row">
 				
 					<?php twentysixteen_the_custom_logo(); ?>
 					<!-- .site-branding -->
@@ -74,4 +74,4 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		<div id="content" class="site-content row mt-md-4">
+		<div id="content" class="site-content row mt-xs-4 col-md-12 mt-sm-6 center-block">

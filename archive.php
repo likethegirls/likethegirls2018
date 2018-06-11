@@ -19,7 +19,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main col-sm-10 col-sm-push-1" role="main">
+		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 

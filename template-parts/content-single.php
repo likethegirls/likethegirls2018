@@ -36,7 +36,6 @@
 			//}
 		?>
 	</div><!-- .entry-content -->
-
 	<footer class="entry-footer">
 		<?php // twentysixteen_entry_meta(); ?>
 	</footer><!-- .entry-footer -->

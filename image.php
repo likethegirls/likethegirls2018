@@ -17,7 +17,7 @@ get_header(); ?>
 				while ( have_posts() ) : the_post();
 			?>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class('col-xs-12'); ?>>
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 					<nav id="image-navigation" class="navigation image-navigation">
 						<div class="nav-links">

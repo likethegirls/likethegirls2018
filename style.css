@@ -1724,11 +1724,6 @@ blockquote:after,
  * 11.2 - Posts and pages
  */
 
-.site-main > article {
-	margin-bottom: 2.75em;
-	position: relative;
-}
-
 .post:nth-child(4n) .post-thumbnail {
 	margin: 0!important;
 }

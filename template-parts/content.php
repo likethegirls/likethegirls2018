@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('row'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-content">
 		<?php
 			twentysixteen_post_thumbnail();
@@ -39,7 +39,7 @@
 				<span class="sticky-post"><?php _e( 'Featured', 'twentysixteen' ); ?></span>
 				<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); 
 				 else: 
-				the_title( sprintf( '<h2 class="entry-title small"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			 endif; 
 			
 			echo('<p class="mt-xs-1">'); the_excerpt(); ?>

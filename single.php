@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
+<div id="primary" class="content-area col-xs-12 mt-xs-2">
 	<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.

@@ -1744,10 +1744,37 @@ blockquote:after,
 /**
  * 11.2 - Posts and pages
  */
+.format-aside > .post-thumbnail, 
+.format-aside {
+	display:inline-flex;
+}
+
+.format-aside > .post-thumbnail {
+	align-self:center;
+}
+
+.format-aside > .entry-content {
+	margin-top: 0px;
+}
+
+.format-aside > .entry-titles > .entry-header h2{
+	font-size:18px;
+	padding-top:6px;
+}
+
+.format-aside > .entry-titles > .entry-header p{ 
+	line-height:1.6rem;
+	padding-top:4px;
+} 
+
+.format-aside > .entry-titles > .entry-header .cat-links { 
+	top:-10px;
+} 
 
 .post:nth-child(2n),
 .post:nth-child(2n) .post-thumbnail {
-	display:inline-flex;
+	margin-left:-15px;
+	margin-right:-15px;
 }
 
 .post-thumbnail img {

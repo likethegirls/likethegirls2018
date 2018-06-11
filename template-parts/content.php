@@ -9,7 +9,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="entry-content">
+	<div class="entry-content mt-xs-4">
 		<?php
 			twentysixteen_post_thumbnail();
 		/* translators: %s: Name of current post */

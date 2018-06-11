@@ -418,7 +418,6 @@ h6 {
 }
 
 .post > .entry-header > .entry-title {
-	border-bottom: 1px solid #000;
     line-height: 1.2em;
     font-size: 30px;
 }
@@ -2249,8 +2248,8 @@ body.search-no-results .page-header {
 	color:#F1F1F1;
 } 
 
-.format-quote {
-
+.format-quote .entry-title{
+	font-size:1.6em;
 }
 
 /**
@@ -2464,10 +2463,6 @@ body.search-no-results .page-header {
 /**
  * 11.6 - Footer
  */
-
-.site-footer {
-	border-top: 1px solid #f4f4f4;
-}
 
 .site-info {
 	color: #686868;

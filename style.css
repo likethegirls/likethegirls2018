@@ -1498,9 +1498,7 @@ blockquote:after,
  */
 
 .widget {
-	border-top: 1px solid #F5F5F5;
 	margin-bottom: 3.5em;
-	padding-top: 1.75em;
 }
 
 .widget-area > :last-child,
@@ -2064,31 +2062,31 @@ body:not(.search-results) .entry-summary > :last-child,
 	width: 21px;
 }
 
-.site-main > .sticky {
+@media (max-width: 768px) {
+ .site-main > .sticky,
+ .post:nth-child(5n) 
+  {
 	border-bottom: 1px solid #F5F5F5;
 	padding-bottom: 20px;
 	margin-right: -15px;
     margin-left: -15px;
+    padding-right:0px;
 }
 
-@media (min-width: 768px) {
-  .site-main > .sticky {
-  	margin-right: 0px;
-  	margin-left: 0px;
-  }
-}
-
-.sticky .entry-content {
+.sticky .entry-content,
+.post:nth-child(5n) .entry-content {
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-.site-main > .sticky > .entry-content > a {
+.site-main > .sticky > .entry-content > a,
+.site-main > .post:nth-child(5n) .entry-content > a {
 	margin: 0;
 	padding: 0;
 }
 
+}
 
 .sticky-post, 
 .cat-links {
@@ -2494,7 +2492,7 @@ body.search-no-results .page-header {
 
 .site-info a:hover,
 .site-info a:focus {
-	color: #007acc;
+	background: #007acc;
 }
 
 .site-footer .site-title {

@@ -1,0 +1,106 @@
+Searching 25 files for "content-area"
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/404.php:
+   10  get_header(); ?>
+   11  
+   12: 	<div id="primary" class="content-area">
+   13  		<main id="main" class="site-main" role="main">
+   14  
+   ..
+   29  		<?php get_sidebar( 'content-bottom' ); ?>
+   30  
+   31: 	</div><!-- .content-area -->
+   32  
+   33  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/archive.php:
+   19  get_header(); ?>
+   20  
+   21: 	<div id="primary" class="content-area">
+   22  		<main id="main" class="site-main" role="main">
+   23  
+   ..
+   60  
+   61  		</main><!-- .site-main -->
+   62: 	</div><!-- .content-area -->
+   63  
+   64  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/image.php:
+   10  get_header(); ?>
+   11  
+   12: 	<div id="primary" class="content-area">
+   13  		<main id="main" class="site-main" role="main">
+   14  
+   ..
+  107  
+  108  		</main><!-- .site-main -->
+  109: 	</div><!-- .content-area -->
+  110  
+  111  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/index.php:
+   17  get_header(); ?>
+   18  
+   19: 	<div id="primary" class="content-area col-xs-12 col-sm-8">
+   20  		<main id="main" class="site-main" role="main">
+   21  
+   ..
+   57  
+   58  		</main><!-- .site-main -->
+   59: 	</div><!-- .content-area -->
+   60  <?php get_sidebar(); ?>
+   61  <?php get_footer(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/page.php:
+   14  get_header(); ?>
+   15  
+   16: <div id="primary" class="content-area">
+   17  	<main id="main" class="site-main" role="main">
+   18  		<?php
+   ..
+   36  	<?php get_sidebar( 'content-bottom' ); ?>
+   37  
+   38: </div><!-- .content-area -->
+   39  
+   40  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/search.php:
+   10  get_header(); ?>
+   11  
+   12: 	<section id="primary" class="content-area">
+   13  		<main id="main" class="site-main" role="main">
+   14  
+   ..
+   48  
+   49  		</main><!-- .site-main -->
+   50: 	</section><!-- .content-area -->
+   51  
+   52  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/single.php:
+   10  get_header(); ?>
+   11  
+   12: <div id="primary" class="content-area col-xs-12 col-sm-8 mt-xs-4 mt-sm-6 center-block">
+   13  	<main id="main" class="site-main row" role="main">
+   14  		<?php
+   ..
+   49  	<?php get_sidebar( 'content-bottom' ); ?>
+   50  
+   51: </div><!-- .content-area -->
+   52  
+   53  <?php get_sidebar(); ?>
+
+/Users/tristanjensen/Sites/likethegirls_local/wp-content/themes/likethegirls2018/template-magazine.php:
+   10  get_header(); ?>
+   11  
+   12: 	<div id="primary" class="content-area">
+   13  		<main id="main" class="site-main" role="main">
+   14  
+
+15 matches across 8 files
+
+
+Searching 25 files for "content-area col-xs-12 col-sm-md"
+
+0 matches

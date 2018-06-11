@@ -74,4 +74,4 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
 
-		<div id="content" class="site-content row mt-xs-4 col-md-12 mt-sm-6 center-block">
+		<div id="content" class="site-content row">

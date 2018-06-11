@@ -1745,8 +1745,9 @@ blockquote:after,
  * 11.2 - Posts and pages
  */
 
-.post:nth-child(4n) .post-thumbnail {
-	margin: 0!important;
+.post:nth-child(2n),
+.post:nth-child(2n) .post-thumbnail {
+	display:inline-flex;
 }
 
 .post-thumbnail img {

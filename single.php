@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div id="primary" class="content-area col-xs-12 col-sm-8 mt-xs-4 mt-sm-6  center-block">
-	<main id="main" class="site-main row" role="main">
+	<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();

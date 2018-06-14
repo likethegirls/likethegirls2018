@@ -1009,10 +1009,6 @@ input[type="search"].search-field {
 	display: none; 
 }
 
-.site-footer .social-navigation {
-	margin-bottom: 1.75em;
-}
-
 .social-navigation ul {
 	list-style: none;
 	margin: 0 0 -0.4375em;
@@ -1749,7 +1745,7 @@ blockquote:after,
 /**
  * 11.2 - Posts and pages
  */
-
+/*
  @media (max-width: 768px) {
 	.format-aside > .post-thumbnail, 
 	.format-aside {
@@ -2062,6 +2058,7 @@ body:not(.search-results) .entry-summary > :last-child,
 	width: 21px;
 }
 
+/*
 @media (max-width: 768px) {
  .site-main > .sticky,
  .post:nth-child(5n) 
@@ -2072,6 +2069,7 @@ body:not(.search-results) .entry-summary > :last-child,
     margin-left: -15px;
     padding-right:0px;
 }
+
 
 .sticky .entry-content,
 .post:nth-child(5n) .entry-content {
@@ -2085,8 +2083,7 @@ body:not(.search-results) .entry-summary > :last-child,
 	margin: 0;
 	padding: 0;
 }
-
-}
+*/
 
 .sticky-post, 
 .cat-links {

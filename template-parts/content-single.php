@@ -9,16 +9,14 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="row">
 	<?php twentysixteen_post_thumbnail(); ?>
-	</div>
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_excerpt(); ?>
 
-	<div class="entry-content col-xs-12">
+	<div class="entry-content">
 		<?php
 			the_content();
 

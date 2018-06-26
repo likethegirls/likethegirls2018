@@ -2268,10 +2268,6 @@ body.search-no-results .page-header {
 	margin-bottom: 1.473684211em;
 }
 
-.attachment-post-thumbnail {
-	display:none!important;
-}
-
 .blog .format-status .entry-title,
 .archive .format-status .entry-title {
 	display: none;

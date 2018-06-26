@@ -2268,7 +2268,7 @@ body.search-no-results .page-header {
 	margin-bottom: 1.473684211em;
 }
 
-.format-gallery.post .post-thumbnail {
+article.format-gallery.post .post-thumbnail {
     display: none;
 }
 

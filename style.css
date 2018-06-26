@@ -2269,7 +2269,7 @@ body.search-no-results .page-header {
 }
 
 .attachment-post-thumbnail {
-	display:none;
+	display:none!important;
 }
 
 .blog .format-status .entry-title,

@@ -2268,8 +2268,8 @@ body.search-no-results .page-header {
 	margin-bottom: 1.473684211em;
 }
 
-.featured-image {
-    display: none;
+.attachment-post-thumbnail {
+	display:none;
 }
 
 .blog .format-status .entry-title,

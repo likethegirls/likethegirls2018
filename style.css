@@ -1183,6 +1183,10 @@ input[type="search"].search-field {
 	clear: both;
 }
 
+.nav-previous, .nav-next {
+	position: relative;
+}
+
 .post-navigation a {
 	color: #1a1a1a;
 	display: block;

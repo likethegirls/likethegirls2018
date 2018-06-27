@@ -457,16 +457,11 @@ i {
 }
 
 blockquote {
-	border: 0 solid #1a1a1a;
-	border-left-width: 4px;
-	color: #686868;
 	font-size: 19px;
-	font-size: 1.1875rem;
 	font-style: italic;
 	line-height: 1.4736842105;
 	margin: 0 0 1.4736842105em;
 	overflow: hidden;
-	padding: 0 0 0 1.263157895em;
 }
 
 blockquote,
@@ -483,6 +478,10 @@ q:after {
 
 blockquote p {
 	margin-bottom: 1.4736842105em;
+	font-family: "LikeTheGirlsSimple", serif;
+	text-align: center;
+	font-size:1.4em;
+	font-weight:400;
 }
 
 blockquote cite,

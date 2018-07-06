@@ -415,7 +415,8 @@ p {
 	color: #424242;
 	font-family: "LiketheGirlsSansSerif", sans-serif;
 	font-size: 14px;
-	line-height: 2.2rem;
+	line-height: 1.8em;
+	text-align:justify;
 }
 
 h1,
@@ -425,13 +426,14 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-weight: 100;
+	font-weight: 400;
 	margin: 0;
 	text-rendering: optimizeLegibility;
-	line-height:1.4em;
 	color:#000;
 	font-family: "LikeTheGirlsSimple", "Helvetica Neue", serif;
-	padding: 6px 0px;
+	margin-bottom: 0.8em;
+	line-height: 1.2em;
+    font-size: 1.6em;
 }
 
 .entry-title a:hover,
@@ -442,11 +444,6 @@ h6 {
 .entry-title a {
 	color:#000;	
 	font-weight:400;
-}
-
-.post > .entry-header > .entry-title {
-    line-height: 1.2em;
-    font-size: 30px;
 }
 
 dfn,
@@ -1014,18 +1011,13 @@ input[type="search"].search-field {
 	margin-top: 1.75em;
 }
 
-.entry-titles .entry-header,
-.entry-titles .entry-header .entry-title {
-	margin-bottom: 0px;
-}
-
 .entry-titles .entry-footer {
 	margin-top: 0px;
 }
 
 .entry-titles {	
 	position:inherit;
-	padding:6px 4px;
+	padding:30px 20px 10px 20px;
 }
 
 .entry-titles .posted-on, 
@@ -1673,6 +1665,7 @@ blockquote:after,
 
 .site-main > article {
 	margin: 20px 0;
+	padding:0px;
 }
 
 
@@ -1814,6 +1807,11 @@ blockquote:after,
 }
 */
 
+.entry-content > .post-thumbnail {
+	padding:0px;
+	margin:0px;
+}
+
 .post-thumbnail img {
 	display: block;
 }
@@ -1842,11 +1840,9 @@ a.post-thumbnail:focus {
 .entry-summary h2,
 .comment-content h2,
 .textwidget h2 {
-	font-size: 23px;
-	font-size: 1.4375rem;
-	line-height: 1.2173913043;
-	margin-top: 2.4347826087em;
-	margin-bottom: 1.2173913043em;
+	margin: 2.6em 0em 0.6em 0em;
+    text-align: left;
+    font-size: 1.2em;
 }
 
 .entry-content h3,
@@ -1918,7 +1914,7 @@ a.post-thumbnail:focus {
 .textwidget h4,
 .textwidget h5,
 .textwidget h6 {
-	font-weight: 900;
+	font-weight: 400;
 }
 
 .entry-content h1:first-child,
@@ -1951,10 +1947,7 @@ a.post-thumbnail:focus {
 .post-navigation .post-title,
 .entry-title,
 .comments-title {
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
+	text-align:left;
 }
 
 body:not(.search-results) .entry-summary {
@@ -2069,9 +2062,24 @@ body:not(.search-results) .entry-summary > :last-child,
 	white-space: nowrap;
 }
 
-.entry-header {
-	color: #2f2f2f;
-	line-height: 1.8em;
+.single-header {
+	position:relative;
+	margin-bottom:20px;
+}
+
+.single-header > .post-thumbnail {
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.single-header > .entry-title {
+	position: absolute;
+    bottom: 10px;
+    background: #FFF;
+    margin-left: -15px;
+    padding: 15px;
+    font-size: 1.8em;
+    line-height: 1.2em;
 }
 
 .entry-header:empty {
@@ -2126,21 +2134,18 @@ body:not(.search-results) .entry-summary > :last-child,
 	text-transform: uppercase;
 	position: absolute;
     top: -16px;
-    left:0;
+    left:4;
     background: #000;
     color: #FFF;
     font-weight: 600;
-    padding: 6px 14px;
-    font-size: 0.8rem;
-
+    padding: 0px 10px 4px 10px;
 }
 
-
-.entry-header .cat-links {
-	background: #FFF;
-	color:#000;
+.cat-links a {
+	color: #FFF;
+	font-size: 0.6em;
+	font-family: "LikeTheGirlsSansSerif", sans-serif;
 }
-
 
 .sticky .cat-links {
 	display: none;
@@ -2268,9 +2273,9 @@ body.search-no-results .page-header {
 .format-link .entry-title,
 .format-audio .entry-title,
 .format-chat .entry-title {
-	font-size: 1.4em;
-	line-height: 1.2em;
-	margin-bottom: 1.473684211em;
+	line-height: 1.4em;
+    font-size: 1.6em;
+    font-weight:400;
 }
 
 .blog .format-status .entry-title,

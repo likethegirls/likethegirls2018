@@ -1168,15 +1168,7 @@ h6 .small,
   color: #777;
   font-family: "LikeTheGirlsSimple", sans-serif;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
+
 h1 small,
 .h1 small,
 h2 small,
@@ -1217,10 +1209,11 @@ h6 .small,
 h1,
 .h1 {
   font-size: 28px;
+  margin-bottom:0.4em;
 }
 h2,
 .h2 {
-  font-size: 20px;
+  font-size: 22px;
 }
 h3,
 .h3 {

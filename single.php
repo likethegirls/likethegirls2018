@@ -30,6 +30,7 @@ get_header(); ?>
 				) );
 			} elseif ( is_singular( 'post' ) ) {
 				// Previous/next post navigation.
+				/*
 				the_post_navigation( array(
 					'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentysixteen' ) . '</span> ' .
 						'<span class="screen-reader-text">' . __( 'Next post:', 'twentysixteen' ) . '</span> ' .
@@ -40,23 +41,25 @@ get_header(); ?>
 				) );
 
 
+
 				 // Previous/next post navigation with images
-/**			    $next_post = get_next_post();
+			    $next_post = get_next_post();
 			    $previous_post = get_previous_post();
 			    the_post_navigation( array(
-		        'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentyfifteen' ) . '</span> ' .
+		        'next_text' => '<div class="meta-nav col-xs-6" aria-hidden="true">' . __( 'Next', 'twentyfifteen' ) .
 		            '<span class="screen-reader-text">' . __( 'Next post:', 'twentyfifteen' ) . '</span> ' .
 		            '<span class="post-title">%title</span>' . get_the_post_thumbnail($next_post->ID,'thumbnail'),
-		        'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'twentyfifteen' ) . '</span> ' .
+		        'prev_text' => '</div><div class="meta-nav col-xs-6" aria-hidden="true">' . __( 'Previous', 'twentyfifteen' ) . '</span> ' .
 		            '<span class="screen-reader-text">' . __( 'Previous post:', 'twentyfifteen' ) . '</span> ' .
-		            '<span class="post-title">%title</span>' . get_the_post_thumbnail($previous_post->ID,'thumbnail'),
+		            '<span class="post-title">%title</span>' . get_the_post_thumbnail($previous_post->ID,'thumbnail'), '</div>'
     ) );
- **/
+*/
 			}
 
-			// End of the loop.
+			// End of the loop. 
 		endwhile;
 		?>
+
 
 	</main><!-- .site-main -->
 

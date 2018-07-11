@@ -9,6 +9,13 @@
 
 get_header(); ?>
 
+
+<?php
+	if ( function_exists('yoast_breadcrumb') ) {
+		yoast_breadcrumb('</p><p id="breadcrumbs">','</p><p>');
+	};
+?>
+	
 <div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 mt-xs-4 mt-sm-6  center-block">
 	<main id="main" class="site-main" role="main">
 		<?php

@@ -18,7 +18,7 @@
 
 get_header(); ?>
 <?php the_archive_title( '<h1 class="entry-title title-desktop category-title">', '</h1>' ); ?>
-	<div id="primary" class="content-area col-xs-12 col-sm-6">
+	<div id="primary" class="content-area col-xs-12 col-sm-8">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>

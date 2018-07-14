@@ -12,7 +12,7 @@ get_header(); ?>
 
 <?php
 	if ( function_exists('yoast_breadcrumb') ) {
-		yoast_breadcrumb('</p><p id="breadcrumbs">','</p><p>');
+		yoast_breadcrumb('<div class="col-sm-9 col-sm-push-2"><p id="breadcrumbs">','</p></div>');
 	};
 ?>
 	<?php the_title( '<h1 class="entry-title title-desktop col-sm-9 col-sm-push-2">', '</h1>' ); ?>

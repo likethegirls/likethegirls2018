@@ -28,7 +28,7 @@
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
-		<header id="masthead" class="site-header col-xs-12" role="banner">
+		<header id="masthead" class="site-header col-xs-12 mt-xs-4" role="banner">
 			<div class="site-header-main navbar-fixed-top row">
 				
 					<?php twentysixteen_the_custom_logo(); ?>
@@ -73,5 +73,5 @@
 				</div><!-- .header-image -->
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
-		
+
 		<div id="content" class="site-content">

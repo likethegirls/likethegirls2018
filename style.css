@@ -114,7 +114,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-	color: #fbd54a;
+	color: #ffba00;
 }
 
 
@@ -448,7 +448,7 @@ p#breadcrumbs {
 
 .entry-title a:hover,
 .entry-title a:focus {
-	color: #fbd54a;
+	color: #ffba00;
 }
 
 .entry-title a {
@@ -680,7 +680,7 @@ td {
 }
 
 ::selection {
-	background: #fbd54a;
+	background: #ffba00;
 };
 
 /* Placeholder text color -- selectors need to be separate to work. */
@@ -2545,7 +2545,7 @@ body.search-no-results .page-header {
 }
 
 .required {
-	color: #fbd54a;
+	color: #ffba00;
 	font-family: LiketheGirlsSansSerif, "Helvetica Neue", sans-serif;
 }
 

@@ -2165,6 +2165,9 @@ body:not(.search-results) .entry-summary > :last-child,
 	.custom-logo {
 		max-width: 240px;
 	}
+	.custom-logo-link {
+		padding: 32px 0px 14px 0px;	
+	}
 
 }
 

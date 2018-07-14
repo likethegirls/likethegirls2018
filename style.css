@@ -1728,7 +1728,7 @@ blockquote:after,
 }
 
 .custom-logo {
-	max-width: 180px;
+	max-width: 200px;
 }
 
 .site-description {
@@ -2161,6 +2161,9 @@ body:not(.search-results) .entry-summary > :last-child,
 
 	.entry-title.title-mobile {
 		display:none;
+	}
+	.custom-logo {
+		max-width: 240px;
 	}
 
 }

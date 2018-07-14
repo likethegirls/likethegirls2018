@@ -15,8 +15,9 @@ get_header(); ?>
 		yoast_breadcrumb('</p><p id="breadcrumbs">','</p><p>');
 	};
 ?>
-	
-<div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 mt-xs-4 mt-sm-6  center-block">
+	<?php the_title( '<h1 class="entry-title title-desktop col-sm-9 col-sm-push-2">', '</h1>' ); ?>
+<div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 center-block">
+
 	<main id="main" class="site-main" role="main">
 		<?php
 		// Start the loop.

@@ -2109,6 +2109,12 @@ body:not(.search-results) .entry-summary > :last-child,
     line-height: 1.2em;
 }
 
+.entry-title.title-desktop {
+	display:none;
+	font-size:3em;
+	padding: 10px 10px 40px;
+}
+
 .entry-header:empty {
 	margin: 0;
 }
@@ -2134,6 +2140,15 @@ body:not(.search-results) .entry-summary > :last-child,
 		max-width:1400px; 
 		margin:auto;
 	}
+
+	.entry-title.title-desktop {
+		display:block;
+	}
+
+	.entry-title.title-mobile {
+		display:none;
+	}
+
 }
 
 @media (min-width:1200px) {

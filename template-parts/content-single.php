@@ -7,12 +7,11 @@
  * @since Twenty Sixteen 1.0
  */
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<header class="single-header">
 		<?php twentysixteen_post_thumbnail();  ?>
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_excerpt(); ?>

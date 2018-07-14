@@ -1352,9 +1352,6 @@ a.bg-danger:hover,
 a.bg-danger:focus {
   background-color: #e4b9b9;
 }
-.page-header {
-  border-bottom: 1px solid #eee;
-}
 ul,
 ol {
   margin-top: 0;

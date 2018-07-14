@@ -17,17 +17,14 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
+<?php the_archive_title( '<h1 class="entry-title title-desktop col-sm-8 col-sm-push-2">', '</h1>' ); ?>
+	<div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 ">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title mt-xs-6">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+					<?php the_archive_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
 			</header><!-- .page-header -->
 
 			<?php

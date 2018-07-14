@@ -2105,6 +2105,10 @@ body:not(.search-results) .entry-summary > :last-child,
 	margin-right:-15px;
 }
 
+.entry-title {
+	text-align:center;
+}
+
 .single-header > .entry-title {
 	position: absolute;
     bottom: 10px;
@@ -2239,7 +2243,6 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .page-header { 
 	text-align:center;
-	border-bottom: 2px solid #f6f6f6;
  }
 
 body.error404 .page-header,
@@ -2249,9 +2252,8 @@ body.search-no-results .page-header {
 }
 
 .page-title {
-	font-size: 23px;
-	font-size: 1.4375rem;
-	line-height: 1.2173913043;
+	font-size:3em;
+	padding: 10px 10px 40px;
 }
 
 .taxonomy-description {

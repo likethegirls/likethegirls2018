@@ -12,10 +12,10 @@ get_header(); ?>
 
 <?php
 	if ( function_exists('yoast_breadcrumb') ) {
-		yoast_breadcrumb('<div class="col-sm-9 col-sm-push-2"><p id="breadcrumbs">','</p></div>');
+		yoast_breadcrumb('<div class="col-sm-8 col-sm-push-2"><p id="breadcrumbs">','</p></div>');
 	};
 ?>
-	<?php the_title( '<h1 class="entry-title title-desktop col-sm-9 col-sm-push-2">', '</h1>' ); ?>
+	<?php the_title( '<h1 class="entry-title title-desktop col-sm-8 col-sm-push-2">', '</h1>' ); ?>
 <div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 center-block">
 
 	<main id="main" class="site-main" role="main">

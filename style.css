@@ -2121,7 +2121,7 @@ body:not(.search-results) .entry-summary > :last-child,
 
 .entry-title.title-desktop {
 	display:none;
-	font-size:3em;
+	font-size:2.4em;
 	padding: 10px 10px 40px;
 }
 

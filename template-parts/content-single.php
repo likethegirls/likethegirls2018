@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php twentysixteen_excerpt(); ?>
+	
 
 	<div class="entry-content">
 		<?php

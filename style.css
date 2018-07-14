@@ -104,9 +104,10 @@ template {
 a {
 	background-color: transparent;
 	text-decoration:none;
+	color:#000;
 }
 
-.entry-content > a {
+.entry-content a {
 	text-decoration:underline;
 }
 

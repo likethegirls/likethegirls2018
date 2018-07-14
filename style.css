@@ -2105,10 +2105,6 @@ body:not(.search-results) .entry-summary > :last-child,
 	margin-right:-15px;
 }
 
-.entry-title {
-	text-align:center;
-}
-
 .single-header > .entry-title {
 	position: absolute;
     bottom: 10px;
@@ -2117,6 +2113,10 @@ body:not(.search-results) .entry-summary > :last-child,
     padding: 15px;
     font-size: 1.8em;
     line-height: 1.2em;
+}
+
+.category-title {
+	text-align:center;
 }
 
 .entry-title.title-desktop {

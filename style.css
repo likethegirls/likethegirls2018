@@ -103,8 +103,8 @@ template {
 
 a {
 	background-color: transparent;
-	color:#999;
-	text-decoration: none;
+	background:#fbd54a;
+	text-decoration:none;
 }
 
 a:hover,

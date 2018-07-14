@@ -28,7 +28,7 @@
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
-		<header id="masthead" class="site-header col-xs-12 mt-xs-4" role="banner">
+		<header id="masthead" class="site-header col-xs-12 mt-xs-4 mt-md-0" role="banner">
 			<div class="site-header-main navbar-fixed-top row">
 				
 					<?php twentysixteen_the_custom_logo(); ?>

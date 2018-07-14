@@ -436,6 +436,12 @@ h6 {
     font-size: 1.6em;
 }
 
+p#breadcrumbs {
+	font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
 .entry-title a:hover,
 .entry-title a:focus {
 	color: #fbd54a;

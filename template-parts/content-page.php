@@ -15,7 +15,7 @@
 
 	<?php twentysixteen_post_thumbnail(); ?>
 
-	<div class="entry-content col-xs-12 col-sm-6 col-sm-push-3 center-block">
+	<div class="entry-content col-xs-12 col-sm-8 col-sm-push-2 center-block">
 		<?php
 		the_content();
 

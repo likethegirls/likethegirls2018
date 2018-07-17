@@ -2123,6 +2123,10 @@ body:not(.search-results) .entry-summary > :last-child,
 	text-align:center;
 }
 
+.entry-title.page-title {
+	text-align:center;
+}
+
 .entry-title.title-desktop {
 	display:none;
 	font-size:2.4em;

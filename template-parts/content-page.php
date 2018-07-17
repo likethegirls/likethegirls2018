@@ -10,12 +10,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title page-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content col-xs-12 col-sm-6 col-sm-push-3 center-block">
 		<?php
 		the_content();
 

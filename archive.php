@@ -17,15 +17,17 @@
  */
 
 get_header(); ?>
+<?php the_archive_description('<div class="archive-header archive-header-mobile">', '</div>'); ?>
+<header class="page-header">
+					<?php the_archive_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
+			</header><!-- .page-header -->
 <?php the_archive_title( '<h1 class="entry-title title-desktop category-title">', '</h1>' ); ?>
-	<div id="primary" class="content-area col-xs-12 col-sm-8">
+	<div id="primary" class="content-area col-xs-12">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-					<?php the_archive_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
-			</header><!-- .page-header -->
+			
 
 			<?php
 			// Start the Loop.

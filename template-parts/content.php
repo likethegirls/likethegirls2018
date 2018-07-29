@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('col-sm-6'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('col-sm-4'); ?>>
 	<div class="entry-content">
 		<?php
 			twentysixteen_post_thumbnail();

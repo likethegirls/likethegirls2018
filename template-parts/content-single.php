@@ -10,16 +10,21 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<header class="single-header col-sm-12">
-		<?php the_title( '<h1 class="title-desktop col-sm-6 pull-left">', '</h1>' ); ?>
-		<span class="col-sm-6 pull-right">
+		
+		<div class="col-sm-6 col-xs-12 pull-right row feature-thumbnail">
 			<?php twentysixteen_post_thumbnail()?>
-		</span>
-		<?php the_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
+		</div>
+		<div class="feature-title title-desktop col-xs-10 col-xs-push-1 col-sm-6 pull-left">
+			<?php the_title( '<h1>', '</h1>' ); ?>
+			<p class="author-subtitle">
+					By <?php the_author(); ?>
+			</p>
+		</div>
 	</header><!-- .entry-header -->
 
 	
 
-	<div class="entry-content col-sm-6 col-sm-push-3">
+	<div class="entry-content col-xs-10 col-xs-push-1 col-sm-6 col-sm-push-3">
 		<?php
 			the_content();
 

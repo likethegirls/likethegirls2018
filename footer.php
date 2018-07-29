@@ -13,20 +13,34 @@
 		</div><!-- .site-content -->
 
 		<footer id="colophon" class="site-footer mt-xs-2 col-xs-12" role="contentinfo">
-
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'social',
-							'menu_class'     => 'social-links-menu',
-							'depth'          => 1,
-							'link_before'    => '<span class="screen-reader-text">',
-							'link_after'     => '</span>',
-						) );
-					?>
-				</nav><!-- .social-navigation -->
-			<?php endif; ?>
+			<div class="footer-item col-xs-12 col-sm-4">
+				<h2>About</h2>
+				<p>Celebrating excellence and ideas from across disciplines and expertise, especially in those often overlooked.</p>
+			</div>
+			<div class="footer-item col-xs-12 col-sm-4">
+				<h2>Contact</h2>
+				<p>hello@likethegirls.com</p>
+			</div>
+			<div class="footer-item col-xs-12 col-sm-4">
+				<h2>Social</h2>
+				<a href="https://www.facebook.com/likethegirls">Facebook</a>
+				<a href="https://www.instagram.com/likethegirls_">Instagram</a>
+			</div>	
+			<div class="footer-item">
+				<?php if ( has_nav_menu( 'Navigation' ) ) : ?>
+					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'social',
+								'menu_class'     => 'social-links-menu',
+								'depth'          => 1,
+								'link_before'    => '<span class="screen-reader-text">',
+								'link_after'     => '</span>',
+							) );
+						?>
+					</nav><!-- .social-navigation -->
+				<?php endif; ?>
+			</div>
 
 			<div class="site-info">
 				<?php

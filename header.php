@@ -30,7 +30,7 @@
 
 		<header id="masthead" class="site-header col-xs-12 mt-xs-4 mt-md-0" role="banner">
 			<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
-				<button id="menu-toggle" class="menu-toggle fixed-bottom visible-xs ml-aut"><?php _e( ' ', 'twentysixteen' ); ?>
+				<button id="menu-toggle" class="menu-toggle fixed-bottom ml-aut"><?php _e( ' ', 'twentysixteen' ); ?>
 					<img class="open-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/menu.png"/>
 					<img class="close-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/close_menu-white.png"/>
 				</button>

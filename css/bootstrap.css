@@ -4291,7 +4291,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom {
     border-radius: 0;
     position:relative;
-    padding-bottom:20px;
   }
 }
 .navbar-fixed-top {

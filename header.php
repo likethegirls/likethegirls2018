@@ -29,17 +29,17 @@
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
 
 		<header id="masthead" class="site-header col-xs-12 mt-xs-4 mt-md-0" role="banner">
-			<div class="site-header-main navbar-fixed-top row">
-				
-					<?php twentysixteen_the_custom_logo(); ?>
-					<!-- .site-branding -->
-			</div><!-- .site-header-main -->
 			<?php if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) ) : ?>
 				<button id="menu-toggle" class="menu-toggle fixed-bottom visible-xs ml-aut"><?php _e( ' ', 'twentysixteen' ); ?>
 					<img class="open-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/menu.png"/>
-					<img class="close-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/close_menu.png"/>
+					<img class="close-menu" src="<?php echo get_stylesheet_directory_uri() ?>/images/close_menu-white.png"/>
 				</button>
 				<div id="site-header-menu" class="site-header-menu">
+					<div class="site-header-main navbar-fixed-top row">
+					<a class="custom-logo-link light-logo"><img class="custom-logo" src="<?php echo get_stylesheet_directory_uri() ?>/images/ltg_white.png"/></a>
+					<span class="dark-logo"><?php twentysixteen_the_custom_logo(); ?></span>
+					<!-- .site-branding -->
+			</div><!-- .site-header-main -->
 					<?php if ( has_nav_menu( 'primary' ) ) : ?>
 						<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'twentysixteen' ); ?>">
 							<?php

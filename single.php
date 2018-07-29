@@ -15,8 +15,7 @@ get_header(); ?>
 		yoast_breadcrumb('<div class="col-sm-8 col-sm-push-2"><p id="breadcrumbs">','</p></div>');
 	};
 ?>
-	<?php the_title( '<h1 class="entry-title title-desktop col-sm-8 col-sm-push-2">', '</h1>' ); ?>
-<div id="primary" class="content-area col-xs-12 col-sm-6 col-sm-push-2 center-block">
+<div id="primary" class="content-area row">
 
 	<main id="main" class="site-main" role="main">
 		<?php
@@ -71,9 +70,7 @@ get_header(); ?>
 
 	</main><!-- .site-main -->
 
-	<?php get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

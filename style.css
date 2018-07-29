@@ -894,18 +894,51 @@ input[type="search"].search-field {
  */
 
 .site-header-menu {
-	display:none;
 	position:fixed;
 	bottom:0;
 	left:0;
 	width:100%;
 	z-index:100;
-    background: rgba(255,255,255,0.96);
-    height: 100%;
+    height: auto;
     padding-top:52px;
 }
 
-.site-header-menu, .main-navigation, 
+
+
+.site-header-menu > .main-navigation {
+	display:none;
+	background:#000;
+/*Transparent White
+    background: rgba(255,255,255,0.96); */
+}
+
+.site-header-menu.toggled-on > .main-navigation,
+.site-header-menu.toggled-on > .site-header-main .light-logo,
+.site-header-menu > .site-header-main .dark-logo {
+	display:block;
+}
+
+.site-header-menu.toggled-on > .site-header-main .dark-logo,
+.site-header-menu > .site-header-main .light-logo {
+	display:none;
+}
+
+.custom-logo-link.light-logo {
+	background:#000;
+}
+
+.site-header-menu
+
+@media (min-width: 768px) {
+	.site-header-menu {
+		background:#000;
+	}
+	.main-navigation a {
+		color:#FFF;
+	}
+}
+
+.site-header-menu.toggled-on, .main-navigation, 
 .menu-main-menu-container, .primary-menu {
 	height: 100%;
 }
@@ -934,7 +967,7 @@ input[type="search"].search-field {
 }
 
 .main-navigation a {
-	color:#000;
+	color:#FFF;
 	display: block;
 	outline-offset: -1px;
 	padding: 0.44375em 0;
@@ -946,6 +979,8 @@ input[type="search"].search-field {
 	font-size:1.2em;
 	font-family: "LikeTheGirlsSansSerif"
 }
+
+
 
 .main-navigation a:hover,
 .main-navigation a:focus {
@@ -1721,7 +1756,7 @@ blockquote:after,
 .custom-logo-link {
 	display: block;
 	width:100%;
-	text-align:center;
+	text-align:left;
 	background:#FFF;
 	padding:14px;
 	border-bottom:1px solid #F4F4F4;
@@ -1729,6 +1764,7 @@ blockquote:after,
 
 .custom-logo {
 	max-width: 200px;
+	padding-left:30px;
 }
 
 .site-description {
@@ -1747,9 +1783,9 @@ blockquote:after,
 	margin-right:0px;
 	padding: 0.769230769em;
 	position: fixed;
-	bottom:0;
+	top:0;
 	right:0;
-	z-index:101;
+	z-index:100000;
 	background:transparent;
 	border:0px;
 }
@@ -2168,9 +2204,11 @@ body:not(.search-results) .entry-summary > :last-child,
 	}
 	.custom-logo {
 		max-width: 240px;
+		padding-left:0px;
 	}
 	.custom-logo-link {
 		padding: 32px 0px 14px 0px;	
+		text-align:center;
 	}
 
 }

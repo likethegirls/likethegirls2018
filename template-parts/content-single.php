@@ -9,14 +9,17 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
-	<header class="single-header">
-		<?php twentysixteen_post_thumbnail();  ?>
+	<header class="single-header col-sm-12">
+		<?php the_title( '<h1 class="title-desktop col-sm-6 pull-left">', '</h1>' ); ?>
+		<span class="col-sm-6 pull-right">
+			<?php twentysixteen_post_thumbnail()?>
+		</span>
 		<?php the_title( '<h1 class="entry-title title-mobile">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
 	
 
-	<div class="entry-content">
+	<div class="entry-content col-sm-6 col-sm-push-3">
 		<?php
 			the_content();
 

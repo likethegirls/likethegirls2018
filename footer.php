@@ -14,10 +14,6 @@
 
 		<footer id="colophon" class="site-footer mt-xs-2 col-xs-12" role="contentinfo">
 			<div class="footer-item col-xs-12 col-sm-4">
-				<h2>About</h2>
-				<p>Celebrating excellence and ideas from across disciplines and expertise, especially in those often overlooked.</p>
-			</div>
-			<div class="footer-item col-xs-12 col-sm-4">
 				<h2>Contact</h2>
 				<p>hello@likethegirls.com</p>
 			</div>
@@ -26,6 +22,10 @@
 				<a href="https://www.facebook.com/likethegirls">Facebook</a>
 				<a href="https://www.instagram.com/likethegirls_">Instagram</a>
 			</div>	
+			<div class="footer-item col-xs-12 col-sm-4">
+				<h2>About</h2>
+				<p>Celebrating excellence and ideas from across disciplines and expertise, especially in those often overlooked.</p>
+			</div>
 			<div class="footer-item">
 				<?php if ( has_nav_menu( 'Navigation' ) ) : ?>
 					<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">

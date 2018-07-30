@@ -14,7 +14,7 @@
 		<div class="col-sm-6 col-xs-12 pull-right row feature-thumbnail">
 			<?php twentysixteen_post_thumbnail()?>
 		</div>
-		<div class="feature-title title-desktop col-xs-10 col-xs-push-1 col-sm-6 pull-left">
+		<div class="feature-title title-desktop col-xs-10 col-xs-push-1 col-sm-push-0 col-sm-6 pull-left">
 			<?php the_title( '<h1>', '</h1>' ); ?>
 			<p class="author-subtitle">
 					By <?php the_author(); ?>

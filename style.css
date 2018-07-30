@@ -2219,6 +2219,10 @@ body:not(.search-results) .entry-summary > :last-child,
     max-width:1200px;
 }
 
+.single-header {
+	background:#FFF;
+}
+
 .single-header > .feature-thumbnail,
 .single-header > .feature-title {
 		padding:0px;
@@ -2262,7 +2266,7 @@ body:not(.search-results) .entry-summary > :last-child,
 	}
 
 	.feature-title.title-desktop > h1 {
-		margin-top:40%;
+		margin-top:40px;
 		padding:20px;
 		padding-bottom:0px;
 		text-align:center;

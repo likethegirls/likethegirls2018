@@ -1744,7 +1744,7 @@ blockquote:after,
 }
 
 .site-main > article {
-	margin: 20px 0;
+	margin: 40px 0;
 	padding:0px;
 }
 
@@ -1902,7 +1902,7 @@ article > .entry-content {
 .entry-content > .post-thumbnail {
 	padding:0px;
 	margin:0px;
-	height:400px;
+	height:200px;
 	overflow:hidden;
 }
 
@@ -2491,6 +2491,7 @@ body.search-no-results .page-header {
     font-size: 1.6em;
     font-weight:400;
 }
+
 
 .blog .format-status .entry-title,
 .archive .format-status .entry-title {

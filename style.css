@@ -2234,6 +2234,10 @@ body:not(.search-results) .entry-summary > :last-child,
     margin-bottom: 40px;
 }
 
+.heateor_sss_sharing_container.heateor_sss_horizontal_sharing {
+	text-align: center!important;
+}
+
 @media (min-width: 768px) {
  	.entry-titles {
  		padding:30px 20px 10px 20px;

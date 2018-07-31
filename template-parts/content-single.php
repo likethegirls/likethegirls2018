@@ -19,7 +19,7 @@
 			<p class="author-subtitle">
 					By <?php the_author(); ?>
 			</p>
-			<?php echo do_shortcode('[Sassy_Social_Share style="background-color:#000;"]') ?>
+			
 		</div>
 	</header><!-- .entry-header -->
 

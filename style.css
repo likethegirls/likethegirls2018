@@ -1096,8 +1096,8 @@ aside .menu-item:hover a {
 
 .entry-titles {	
 	position:inherit;
-	padding:30px 20px 10px 20px;
-	height: 220px;
+	padding:30px 20px 0px 20px;
+	height: auto;
     margin-bottom: 60px;
 }
 
@@ -2235,6 +2235,11 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 @media (min-width: 768px) {
+ 	.entry-titles {
+ 		padding:30px 20px 10px 20px;
+		height: 220px;
+ 	}
+
  	.footer-item {
  		margin-top:20px !important;
  	}

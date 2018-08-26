@@ -11,7 +11,7 @@
 	
 	<header class="single-header col-sm-12">
 		
-		<div class="col-sm-6 col-xs-12 pull-right row feature-thumbnail">
+		<div class="col-sm-5 col-xs-12 pull-right row feature-thumbnail">
 			<?php twentysixteen_post_thumbnail()?>
 		</div>
 		<div class="feature-title title-desktop col-xs-10 col-xs-push-1 col-sm-push-0 col-sm-6 pull-left">
